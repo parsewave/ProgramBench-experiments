@@ -1,0 +1,13 @@
+{
+  "task_id": "chmln__sd.87d1ba5",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 3336,
+  "exit_code": 0,
+  "start_ts": 1779455009,
+  "end_ts": 1779458345,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}

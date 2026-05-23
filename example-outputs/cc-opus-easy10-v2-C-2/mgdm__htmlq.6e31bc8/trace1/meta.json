@@ -1,0 +1,13 @@
+{
+  "task_id": "mgdm__htmlq.6e31bc8",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 5757,
+  "exit_code": 0,
+  "start_ts": 1779453022,
+  "end_ts": 1779458779,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}

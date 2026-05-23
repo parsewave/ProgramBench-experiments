@@ -1,0 +1,3308 @@
+{
+  "test_results": [
+    {
+      "name": "eval.tests.test_csview.test_single_row",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_version_long",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_escaped_quotes",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_empty_csv_stdin",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_version_short",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_embedded_newlines",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_default_comma_delimiter",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_read_from_file",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_tsv_short_flag",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_help_long",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_read_from_stdin",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_commas_in_quoted_fields",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_tsv_long_flag",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_help_short",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_cjk_characters",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_nonexistent_file",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_custom_delimiter_short",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_no_args_no_stdin",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_emoji_characters",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_empty_file",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_no_args_with_stdin",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_custom_delimiter_long",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_quoted_fields",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_single_column",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_pipe_delimiter",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_line_numbers_short",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_ascii",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_grid",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_line_numbers_long",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_semicolon_delimiter",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_ascii2",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_sharp",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_space_delimiter",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_case_insensitive",
+      "branch": "a7a2f5f083bf",
+      "status": "failure",
+      "extra": {
+        "time": 0.025,
+        "message": "assert 2 == 0\n +  where 2 = CompletedProcess(args=['./executable', '-s', 'MARKDOWN'], returncode=2, stdout=b'', stderr=b\"error: invalid value 'MARKDOWN' for '--style <STYLE>'\\n  [possible values: none, ascii, ascii2, sharp, rounded, reinforced, markdown, grid]\\n\\nFor more information, try '--help'.\\n\").returncode",
+        "text": "def test_style_case_insensitive():\n        \"\"\"Test that style names are case insensitive.\"\"\"\n        csv_data = \"A,B\\n1,2\"\n        result1 = run(\"-s\", \"MARKDOWN\", stdin=csv_data)\n        result2 = run(\"-s\", \"markdown\", stdin=csv_data)\n        result3 = run(\"-s\", \"MarkDown\", stdin=csv_data)\n>       assert result1.returncode == 0\nE       assert 2 == 0\nE        +  where 2 = CompletedProcess(args=['./executable', '-s', 'MARKDOWN'], returncode=2, stdout=b'', stderr=b\"error: invalid value 'MARKDOWN' for '--style <STYLE>'\\n  [possible values: none, ascii, ascii2, sharp, rounded, reinforced, markdown, grid]\\n\\nFor more information, try '--help'.\\n\").returncode\n\neval/tests/test_csview.py:473: AssertionError"
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_default_with_headers",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_rounded",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_line_numbers_seq_alias",
+      "branch": "a7a2f5f083bf",
+      "status": "failure",
+      "extra": {
+        "time": 0.011,
+        "message": "assert 2 == 0\n +  where 2 = CompletedProcess(args=['./executable', '--seq'], returncode=2, stdout=b'', stderr=b\"error: unexpected argument '--seq' found\\n\\n  tip: to pass '--seq' as a value, use '-- --seq'\\n\\nUsage: executable [OPTIONS] [FILE]\\n\\nFor more information, try '--help'.\\n\").returncode",
+        "text": "def test_line_numbers_seq_alias():\n        \"\"\"Test line numbering with --seq alias.\"\"\"\n        csv_data = \"A,B\\n1,2\\n3,4\"\n        result = run(\"--seq\", stdin=csv_data)\n>       assert result.returncode == 0\nE       assert 2 == 0\nE        +  where 2 = CompletedProcess(args=['./executable', '--seq'], returncode=2, stdout=b'', stderr=b\"error: unexpected argument '--seq' found\\n\\n  tip: to pass '--seq' as a value, use '-- --seq'\\n\\nUsage: executable [OPTIONS] [FILE]\\n\\nFor more information, try '--help'.\\n\").returncode\n\neval/tests/test_csview.py:358: AssertionError"
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_no_headers_short",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_reinforced",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_no_headers_long",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_markdown",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_padding_long_flag",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_sniff_default",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_indent_default",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_sniff_small_limit",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_sniff_unlimited",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_indent_small",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_header_align_default",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_indent_large",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_indent_long_flag",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_header_align_left",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_header_align_center",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_body_align_center",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_body_align_right",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_header_align_right",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_combined_alignments",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_body_align_default",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_body_align_left",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_disable_pager_short",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_disable_pager_long",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_multiple_flags_combined",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_line_numbers_custom_style",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_non_utf8_input",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_no_headers_line_numbers",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_unequal_row_lengths",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_custom_delimiter_custom_style",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_invalid_file_path",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_markdown_custom_alignment",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_all_formatting_options",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_very_wide_table",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_tsv_line_numbers",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_cells_with_whitespace",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_empty_cells",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_mixed_width_unicode",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_long_cell_content",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_trailing_whitespace",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_windows_line_endings",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_file_with_many_columns",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_large_file",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.008
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_various_delimiters",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.009
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_all_styles_with_data",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.021
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_indent_range",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.013
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_padding_range",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.016
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_sniff_range",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.02
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_all_alignments",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.023
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_complex_quoted_csv",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_multiline_cells",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_unicode_in_headers",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_mixed_content_widths",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_empty_rows_handling",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_tsv_with_various_options",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_no_headers_with_line_numbers_and_style",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_custom_delimiter_edge_cases",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.007
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_very_long_lines",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_file_with_bom",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_special_chars_in_data",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_numeric_data",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_markdown_table_format",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_grid_vs_sharp_difference",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.006
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_multiple_emoji_types",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_none_style_output",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_zero_width_joiners",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_line_numbers_no_headers",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_padding_default",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_default_sharp",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_padding_zero",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_style_none",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview.test_padding_large",
+      "branch": "a7a2f5f083bf",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_single_row_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_cjk_align_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_padding_zero",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_ascii_only_baseline",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_very_long_cell_content",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_indent_4",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_mixed_unicode_with_line_numbers",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_latin_extended_characters",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_trailing_comma_empty_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_sniff_limit_truncates_wide_content",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_emoji_markdown_style",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_cjk_character_rendering",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_quoted_fields_with_embedded_newlines",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_cjk_ascii_style",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_sniff_unlimited_full_width",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_emoji_rendering",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_style_rounded",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_unequal_field_lengths_error",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_all_cells_empty",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_mixed_unicode_in_same_cell",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_all_identical_cells",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_style_reinforced",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_non_utf8_input_error",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_completely_empty_input",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_deeply_nested_quotes",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_style_grid",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_tsv_tab_delimiter",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_header_only_no_data_rows",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_body_align_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_custom_pipe_delimiter",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_style_ascii2",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_single_cell_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_no_headers_flag",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_body_align_center",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_style_none_no_borders",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_single_column_multiple_rows",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_indent_five",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_stdin_input_with_unicode",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_alignment_combo_header_left_body_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_combo_padding_indent_number",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_indent_ten",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_alignment_combo_header_right_body_center",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_large_dataset_1000_rows",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.008
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_combo_padding_zero_with_alignment",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_padding_zero",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.006
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_header_align_left",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.006
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_number_basic",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_cjk_emoji_with_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_header_align_center",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_padding_default",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_number_many_rows",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.009
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_cjk_with_number_and_center_align",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_padding_large",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_header_align_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_style_ascii_with_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_sniff_limited_100",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.013
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_padding_three",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_body_align_left",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_style_markdown_with_indent",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_sniff_unlimited",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.016
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_indent_zero",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_body_align_center",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_sniff_default_1000",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.012
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_style_grid_with_number",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_indent_two",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_body_align_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_style_none_with_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_reinforced_style_with_many_columns",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_no_headers_flag",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_style_none_with_number_and_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_empty_cells_with_center_align_and_number",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_ascii2_style_with_number_and_indent",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_input.test_file_not_found_error",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_markdown_with_number_and_mixed_alignment",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_varying_column_widths_with_right_align",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_no_headers_with_number_and_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_input.test_file_input_basic_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_empty_file_input",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_single_row_with_number_and_indent",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_very_wide_cell_with_zero_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_empty_stdin_input",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_stdin_input_basic_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_single_column_with_padding_and_center",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_extreme_padding_and_indent",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_unequal_row_lengths_too_few_fields",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_tsv_delimiter_flag",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_complex_combination_all_options",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_formatting.test_sniff_one_row_with_wide_cell",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_unequal_row_lengths_too_many_fields",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_custom_delimiter_pipe",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_semicolon_custom_delimiter",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_empty_fields_in_middle_of_row",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_input.test_single_column_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_single_data_row_no_headers",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_large_multirow_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_crlf_line_endings",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_header_only_no_data_rows",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_numeric_values_preserved_as_text",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_tsv_with_no_headers_combined_flags",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_tsv_from_stdin",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_unicode_characters_in_data",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_long_field_content_column_width",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_input.test_special_characters_in_quoted_fields",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_mixed_line_endings_in_same_file",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_input.test_quoted_fields_with_embedded_delimiters",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_whitespace_preservation_in_fields",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_custom_delimiter_from_stdin",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_wrong_delimiter_treats_whole_line_as_single_field",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_tsv_flag_on_csv_data_treats_as_single_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_none_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_sharp_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_trailing_delimiter_empty_last_field",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_input.test_emoji_wide_unicode_characters",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_ascii_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_rounded_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_input.test_leading_delimiter_empty_first_field",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_header_only_with_no_headers_flag",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_ascii2_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_reinforced_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_input.test_all_empty_fields_csv",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_seed.test_basic_help",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_markdown_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_grid_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_ascii_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_sharp_single_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_grid_simple",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_none_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_markdown_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_sharp_large_table",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_sharp_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_padding_zero",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_padding_three",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_indent_four",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_header_align_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_header_align_left",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_body_align_center",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_body_align_right",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_header_only_table",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_unicode_content_rendering",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_rounded_large_table",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_ascii_large_table",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_grid_large_table",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_rounded_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_reinforced_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_ascii2_multi_column",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_ascii2_with_zero_padding",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_style_markdown_with_padding_and_alignment",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "tests.test_styles.test_empty_csv_with_sharp_style",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "tests.test_styles.test_empty_csv_with_none_style",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_empty_csv_with_grid_style",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_very_wide_columns",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "tests.test_styles.test_grid_with_padding_zero_and_indent",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "tests.test_styles.test_reinforced_complex_formatting",
+      "branch": "d31025219260",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_rejects_empty_string[args0]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_unknown_flag_errors_and_exit_code",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_missing_value_for_delimiter[flag1]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_double_dash_treats_dash_prefixed_value_as_positional",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_rejects_empty_string[args1]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_missing_value_for_delimiter[flag2]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_too_many_positionals_errors",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_missing_value_for_delimiter[flag0]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_rejects_empty_string[args2]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_rejects_more_than_one_character[args1]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_rejects_more_than_one_character[args0]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_rejects_more_than_one_character[args2]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_delimiter_accepts_tab_character_via_escape",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_integer_flags_reject_non_integer_or_negative[args0-2-expected_substrings0]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_integer_flags_reject_non_integer_or_negative[args2-2-expected_substrings2]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_integer_flags_reject_non_integer_or_negative[args1-2-expected_substrings1]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_choice_flag_style_rejects_invalid_value_and_lists_possible_values",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_integer_flags_reject_non_integer_or_negative[args3-2-expected_substrings3]",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_mutually_exclusive_tsv_and_delimiter",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_flag_value_forms_are_equivalent_for_success",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.016
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_flag_after_positional_is_accepted",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.007
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse.test_boolean_flags_short_and_long_equivalence_on_success",
+      "branch": "65af426d9fb3",
+      "status": "passed",
+      "extra": {
+        "time": 0.009
+      }
+    },
+    {
+      "name": "eval.tests.test_env_config.test_help_output_independent_of_csvview_pager_env",
+      "branch": "efa8c407dbe3",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_env_config.test_no_color_env_has_no_effect_on_help_output",
+      "branch": "efa8c407dbe3",
+      "status": "passed",
+      "extra": {
+        "time": 0.008
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_usage_has_options_and_file",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_trailing_newline",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_description_line",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_exit_code_zero",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_arguments_section",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_usage_section",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_goes_to_stdout",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_short_flag_matches_long_flag",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.008
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_options_section",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.0
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-n]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-d]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-t]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--number]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-H]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--tsv]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--delimiter]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-s]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--style]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--no-headers]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-p]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--padding]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-i]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--sniff]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--indent]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-P]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--body-align]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--disable-pager]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--header-align]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-h]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--version]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[--help]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flags[-V]",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_includes_default_values_for_key_options",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_no_ansi_color_codes",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_mentions_style_possible_values",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_sniff_option_describes_zero_limit",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_output_has_expected_section_order",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.001
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_precedence_over_positional_arg",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.002
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_precedence_over_invalid_flag",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_output_baseline_normalized_match",
+      "branch": "9ec117cda36f",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_nonexistent_file_errors_to_stderr_exit_1",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_tsv_flag_uses_tab_delimiter_exact_output",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_help_prints_usage_to_stdout_and_exit_0",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.006
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_file_input_matches_stdin_output",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.01
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_unreadable_file_permission_denied_exit_1",
+      "branch": "b3b22ece5568",
+      "status": "skipped",
+      "extra": {
+        "time": 0.0,
+        "message": "running as root; cannot reliably make file unreadable",
+        "text": "/workspace/eval/tests/test_csview_io.py:96: running as root; cannot reliably make file unreadable"
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_number_flag_prepends_index_column_exact_output",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_no_headers_flag_removes_header_separator",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_csview_io.test_stdin_default_reads_csv_and_ascii_style_output_exact",
+      "branch": "b3b22ece5568",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_help_exact",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_version_exact",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_unknown_flag_exit_2_and_message",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_invalid_delimiter_empty_string_is_error",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_render_sample_csv_default_style_exact",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.005
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_render_from_stdin_matches_file",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.007
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_missing_file_exit_1_and_message",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_tsv_flag_parses_tabs",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_style_variants[markdown-sample_tsv_style_markdown.txt]",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_style_variants[none-sample_tsv_style_none.txt]",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_padding_zero_changes_layout",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_indent_two_adds_left_spaces",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_unicode_width_handling_exact",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.004
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_sniff_limit_changes_column_widths",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.006
+      }
+    },
+    {
+      "name": "eval.tests.test_rendering_and_options.test_custom_delimiter_colon_on_passwd_head",
+      "branch": "5f4759b87816",
+      "status": "passed",
+      "extra": {
+        "time": 0.003
+      }
+    }
+  ],
+  "error_code": null,
+  "error_details": null,
+  "log": [
+    {
+      "step": "wipe_workspace",
+      "command": "rm -rf /workspace/* /workspace/.[!.]*",
+      "wall_time": 0.1431238129734993,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "remove_hashed_files",
+      "command": "find /workspace -type f -exec sha256sum {} + 2>/dev/null | grep -E \"^(e07420f640d1e6a0c047cab49431d1b561f661241efe111a053ff5dde1119d09)  \" | cut -c67- | xargs -I% rm -fv %",
+      "wall_time": 0.14009469910524786,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "seed_git",
+      "command": "if [ ! -d .git ]; then GIT_AUTHOR_DATE='2000-01-01T00:00:00Z' GIT_COMMITTER_DATE='2000-01-01T00:00:00Z' git -c init.defaultBranch=gold init -q && git -c user.email=gold@local -c user.name=gold -c commit.gpgsign=false add -A && GIT_AUTHOR_DATE='2000-01-01T00:00:00Z' GIT_COMMITTER_DATE='2000-01-01T00:00:00Z' git -c user.email=gold@local -c user.name=gold -c commit.gpgsign=false commit -q --allow-empty -m gold; fi",
+      "wall_time": 0.2326646209694445,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "compile",
+      "command": "chmod +x ./compile.sh && ./compile.sh",
+      "wall_time": 7.199395153904334,
+      "output": "   Compiling proc-macro2 v1.0.93\n   Compiling unicode-ident v1.0.14\n   Compiling rustix v0.38.43\n   Compiling linux-raw-sys v0.4.15\n   Compiling bitflags v2.7.0\n   Compiling utf8parse v0.2.2\n   Compiling anstyle-parse v0.2.6\n   Compiling serde v1.0.217\n   Compiling quote v1.0.38\n   Compiling anstyle v1.0.10\n   Compiling anstyle-query v1.1.2\n   Compiling is_terminal_polyfill v1.70.1\n   Compiling colorchoice v1.0.3\n   Compiling terminal_size v0.4.1\n   Compiling syn v2.0.96\n   Compiling anstream v0.6.18\n   Compiling heck v0.5.0\n   Compiling memchr v2.7.4\n   Compiling strsim v0.11.1\n   Compiling clap_lex v0.7.4\n   Compiling csv-core v0.1.11\n   Compiling clap_builder v4.5.26\n   Compiling ryu v1.0.18\n   Compiling itoa v1.0.14\n   Compiling unicode-width v0.2.0\n   Compiling unicode-segmentation v1.12.0\n   Compiling clap_derive v4.5.24\n   Compiling csv v1.3.1\n   Compiling clap v4.5.26\n   Compiling csview v1.3.4 (/workspace)\nwarning: function `render_empty_table` is never used\n   --> src/main.rs:323:4\n    |\n323 | fn render_empty_table<W: Write>(out: &mut W, cli: &Cli) -> io::Result<()> {\n    |    ^^^^^^^^^^^^^^^^^^\n    |\n    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default\n\nwarning: `csview` (bin \"csview\") generated 1 warning\n    Finished `release` profile [optimized] target(s) in 7.03s\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "copy_executable",
+      "command": "mv ./executable /opt/programbench-stashed-executable-do-not-modify",
+      "wall_time": 0.12184487702324986,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "hash_executable",
+      "command": "sha256sum /opt/programbench-stashed-executable-do-not-modify",
+      "wall_time": 0.1359998038969934,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  /opt/programbench-stashed-executable-do-not-modify\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "install_rerunfailures",
+      "command": "pip3 install -q --disable-pip-version-check pytest-rerunfailures",
+      "wall_time": 0.6403576240409166,
+      "output": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.1105298229958862,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.0950094060972333,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.08797800494357944,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.09989407006651163,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 1.6700532480608672,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 5.0s\ntimeout method: signal\ntimeout func_only: False\ncreated: 4/4 workers\n4 workers [2 items]\n\nscheduling tests via LoadScheduling\n\neval/tests/test_env_config.py::test_help_output_independent_of_csvview_pager_env \neval/tests/test_env_config.py::test_no_color_env_has_no_effect_on_help_output \n[gw0] [ 50%] PASSED eval/tests/test_env_config.py::test_help_output_independent_of_csvview_pager_env \n[gw1] [100%] PASSED eval/tests/test_env_config.py::test_no_color_env_has_no_effect_on_help_output \n\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n============================== 2 passed in 0.44s ===============================\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.06941265519708395,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 01c829da0b58e94bb6d2c2d7b1914972b4b39c0ca509161eb734ad7096c16b0c:/workspace/eval/results.xml /tmp/tmpca8wh_gn.xml",
+      "wall_time": 0.02272863802500069,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"0\" skipped=\"0\" tests=\"2\" time=\"0.436\" timestamp=\"2026-05-22T12:06:55.357617+00:00\" hostname=\"01c829da0b58\"><testcase classname=\"eval.tests.test_env_config\" name=\"test_help_output_independent_of_csvview_pager_env\" time=\"0.003\" /><testcase classname=\"eval.tests.test_env_config\" name=\"test_no_color_env_has_no_effect_on_help_output\" time=\"0.008\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "efa8c407dbe3"
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.09967989986762404,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.10114103299565613,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.08671702491119504,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.10684405919164419,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 3.1479638561140746,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 5.0s\ntimeout method: signal\ntimeout func_only: False\ncreated: 4/4 workers\n4 workers [22 items]\n\nscheduling tests via LoadScheduling\n\neval/tests/test_argparse.py::test_delimiter_rejects_empty_string[args0] \neval/tests/test_argparse.py::test_missing_value_for_delimiter[flag1] \neval/tests/test_argparse.py::test_unknown_flag_errors_and_exit_code \n[gw3] [  4%] PASSED eval/tests/test_argparse.py::test_delimiter_rejects_empty_string[args0] \neval/tests/test_argparse.py::test_double_dash_treats_dash_prefixed_value_as_positional \n[gw0] [  9%] PASSED eval/tests/test_argparse.py::test_unknown_flag_errors_and_exit_code \n[gw2] [ 13%] PASSED eval/tests/test_argparse.py::test_missing_value_for_delimiter[flag1] \n[gw1] [ 18%] PASSED eval/tests/test_argparse.py::test_double_dash_treats_dash_prefixed_value_as_positional \neval/tests/test_argparse.py::test_delimiter_rejects_empty_string[args1] \neval/tests/test_argparse.py::test_missing_value_for_delimiter[flag2] \neval/tests/test_argparse.py::test_too_many_positionals_errors \neval/tests/test_argparse.py::test_missing_value_for_delimiter[flag0] \n[gw3] [ 22%] PASSED eval/tests/test_argparse.py::test_delimiter_rejects_empty_string[args1] \n[gw2] [ 27%] PASSED eval/tests/test_argparse.py::test_missing_value_for_delimiter[flag2] \n[gw1] [ 31%] PASSED eval/tests/test_argparse.py::test_missing_value_for_delimiter[flag0] \n[gw0] [ 36%] PASSED eval/tests/test_argparse.py::test_too_many_positionals_errors \neval/tests/test_argparse.py::test_delimiter_rejects_empty_string[args2] \neval/tests/test_argparse.py::test_delimiter_rejects_more_than_one_character[args1] \neval/tests/test_argparse.py::test_delimiter_rejects_more_than_one_character[args0] \neval/tests/test_argparse.py::test_delimiter_rejects_more_than_one_character[args2] \n[gw2] [ 40%] PASSED eval/tests/test_argparse.py::test_delimiter_rejects_more_than_one_character[args1] \n[gw3] [ 45%] PASSED eval/tests/test_argparse.py::test_delimiter_rejects_empty_string[args2] \n[gw0] [ 50%] PASSED eval/tests/test_argparse.py::test_delimiter_rejects_more_than_one_character[args0] \n[gw1] [ 54%] PASSED eval/tests/test_argparse.py::test_delimiter_rejects_more_than_one_character[args2] \neval/tests/test_argparse.py::test_delimiter_accepts_tab_character_via_escape \neval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args0-2-expected_substrings0] \neval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args2-2-expected_substrings2] \neval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args1-2-expected_substrings1] \n[gw3] [ 59%] PASSED eval/tests/test_argparse.py::test_delimiter_accepts_tab_character_via_escape \n[gw2] [ 63%] PASSED eval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args0-2-expected_substrings0] \n[gw0] [ 68%] PASSED eval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args2-2-expected_substrings2] \n[gw1] [ 72%] PASSED eval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args1-2-expected_substrings1] \neval/tests/test_argparse.py::test_choice_flag_style_rejects_invalid_value_and_lists_possible_values \neval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args3-2-expected_substrings3] \neval/tests/test_argparse.py::test_mutually_exclusive_tsv_and_delimiter \neval/tests/test_argparse.py::test_flag_value_forms_are_equivalent_for_success \n[gw3] [ 77%] PASSED eval/tests/test_argparse.py::test_choice_flag_style_rejects_invalid_value_and_lists_possible_values \n[gw2] [ 81%] PASSED eval/tests/test_argparse.py::test_integer_flags_reject_non_integer_or_negative[args3-2-expected_substrings3] \n[gw0] [ 86%] PASSED eval/tests/test_argparse.py::test_mutually_exclusive_tsv_and_delimiter \n[gw1] [ 90%] PASSED eval/tests/test_argparse.py::test_flag_value_forms_are_equivalent_for_success \neval/tests/test_argparse.py::test_flag_after_positional_is_accepted \neval/tests/test_argparse.py::test_boolean_flags_short_and_long_equivalence_on_success \n[gw2] [ 95%] PASSED eval/tests/test_argparse.py::test_flag_after_positional_is_accepted \n[gw3] [100%] PASSED eval/tests/test_argparse.py::test_boolean_flags_short_and_long_equivalence_on_success \n\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n============================== 22 passed in 0.74s ==============================\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.08249015011824667,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 0904bef9f38aa2cd2ec982519e45f1ddafa2e249d2b78e3f7e699c40497df735:/workspace/eval/results.xml /tmp/tmpemiu8um9.xml",
+      "wall_time": 0.023260598070919514,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"0\" skipped=\"0\" tests=\"22\" time=\"0.733\" timestamp=\"2026-05-22T12:06:56.554827+00:00\" hostname=\"0904bef9f38a\"><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_rejects_empty_string[args0]\" time=\"0.002\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_unknown_flag_errors_and_exit_code\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_missing_value_for_delimiter[flag1]\" time=\"0.003\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_double_dash_treats_dash_prefixed_value_as_positional\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_rejects_empty_string[args1]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_missing_value_for_delimiter[flag2]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_too_many_positionals_errors\" time=\"0.003\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_missing_value_for_delimiter[flag0]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_rejects_empty_string[args2]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_rejects_more_than_one_character[args1]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_rejects_more_than_one_character[args0]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_rejects_more_than_one_character[args2]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_delimiter_accepts_tab_character_via_escape\" time=\"0.005\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_integer_flags_reject_non_integer_or_negative[args0-2-expected_substrings0]\" time=\"0.005\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_integer_flags_reject_non_integer_or_negative[args2-2-expected_substrings2]\" time=\"0.005\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_integer_flags_reject_non_integer_or_negative[args1-2-expected_substrings1]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_choice_flag_style_rejects_invalid_value_and_lists_possible_values\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_integer_flags_reject_non_integer_or_negative[args3-2-expected_substrings3]\" time=\"0.005\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_mutually_exclusive_tsv_and_delimiter\" time=\"0.004\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_flag_value_forms_are_equivalent_for_success\" time=\"0.016\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_flag_after_positional_is_accepted\" time=\"0.007\" /><testcase classname=\"eval.tests.test_argparse\" name=\"test_boolean_flags_short_and_long_equivalence_on_success\" time=\"0.009\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "65af426d9fb3"
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.09285700204782188,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.07116267597302794,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.0928902318701148,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.10661987797357142,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 3.162877742899582,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace/eval\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 30.0s\ntimeout method: signal\ntimeout func_only: False\ncreated: 4/4 workers\n4 workers [153 items]\n\nscheduling tests via LoadScheduling\n\ntests/test_edge_cases.py::test_single_row_csv \ntests/test_edge_cases.py::test_padding_zero \ntests/test_edge_cases.py::test_cjk_align_right \ntests/test_edge_cases.py::test_ascii_only_baseline \n[gw1] [  0%] PASSED tests/test_edge_cases.py::test_single_row_csv \n[gw2] [  1%] PASSED tests/test_edge_cases.py::test_cjk_align_right \n[gw3] [  1%] PASSED tests/test_edge_cases.py::test_padding_zero \n[gw0] [  2%] PASSED tests/test_edge_cases.py::test_ascii_only_baseline \ntests/test_edge_cases.py::test_very_long_cell_content \ntests/test_edge_cases.py::test_indent_4 \ntests/test_edge_cases.py::test_mixed_unicode_with_line_numbers \ntests/test_edge_cases.py::test_latin_extended_characters \n[gw1] [  3%] PASSED tests/test_edge_cases.py::test_very_long_cell_content \n[gw3] [  3%] PASSED tests/test_edge_cases.py::test_indent_4 \n[gw2] [  4%] PASSED tests/test_edge_cases.py::test_mixed_unicode_with_line_numbers \n[gw0] [  5%] PASSED tests/test_edge_cases.py::test_latin_extended_characters \ntests/test_edge_cases.py::test_trailing_comma_empty_column \ntests/test_edge_cases.py::test_sniff_limit_truncates_wide_content \ntests/test_edge_cases.py::test_emoji_markdown_style \n[gw1] [  5%] PASSED tests/test_edge_cases.py::test_trailing_comma_empty_column \ntests/test_edge_cases.py::test_cjk_character_rendering \n[gw3] [  6%] PASSED tests/test_edge_cases.py::test_sniff_limit_truncates_wide_content \n[gw2] [  7%] PASSED tests/test_edge_cases.py::test_emoji_markdown_style \n[gw0] [  7%] PASSED tests/test_edge_cases.py::test_cjk_character_rendering \ntests/test_edge_cases.py::test_quoted_fields_with_embedded_newlines \ntests/test_edge_cases.py::test_sniff_unlimited_full_width \ntests/test_edge_cases.py::test_cjk_ascii_style \n[gw1] [  8%] PASSED tests/test_edge_cases.py::test_quoted_fields_with_embedded_newlines \ntests/test_edge_cases.py::test_emoji_rendering \n[gw2] [  9%] PASSED tests/test_edge_cases.py::test_cjk_ascii_style \n[gw3] [  9%] PASSED tests/test_edge_cases.py::test_sniff_unlimited_full_width \n[gw0] [ 10%] PASSED tests/test_edge_cases.py::test_emoji_rendering \ntests/test_edge_cases.py::test_all_cells_empty \ntests/test_edge_cases.py::test_style_rounded \ntests/test_edge_cases.py::test_unequal_field_lengths_error \n[gw3] [ 11%] PASSED tests/test_edge_cases.py::test_style_rounded \n[gw1] [ 11%] PASSED tests/test_edge_cases.py::test_all_cells_empty \n[gw2] [ 12%] PASSED tests/test_edge_cases.py::test_unequal_field_lengths_error \ntests/test_edge_cases.py::test_mixed_unicode_in_same_cell \n[gw0] [ 13%] PASSED tests/test_edge_cases.py::test_mixed_unicode_in_same_cell \ntests/test_edge_cases.py::test_all_identical_cells \ntests/test_edge_cases.py::test_style_reinforced \ntests/test_edge_cases.py::test_non_utf8_input_error \n[gw1] [ 13%] PASSED tests/test_edge_cases.py::test_all_identical_cells \n[gw3] [ 14%] PASSED tests/test_edge_cases.py::test_style_reinforced \ntests/test_edge_cases.py::test_completely_empty_input \n[gw2] [ 15%] PASSED tests/test_edge_cases.py::test_non_utf8_input_error \n[gw0] [ 15%] PASSED tests/test_edge_cases.py::test_completely_empty_input \ntests/test_edge_cases.py::test_deeply_nested_quotes \ntests/test_edge_cases.py::test_tsv_tab_delimiter \ntests/test_edge_cases.py::test_style_grid \n[gw1] [ 16%] PASSED tests/test_edge_cases.py::test_deeply_nested_quotes \n[gw3] [ 16%] PASSED tests/test_edge_cases.py::test_style_grid \n[gw2] [ 17%] PASSED tests/test_edge_cases.py::test_tsv_tab_delimiter \ntests/test_edge_cases.py::test_header_only_no_data_rows \n[gw0] [ 18%] PASSED tests/test_edge_cases.py::test_header_only_no_data_rows \ntests/test_edge_cases.py::test_body_align_right \ntests/test_edge_cases.py::test_custom_pipe_delimiter \ntests/test_edge_cases.py::test_style_ascii2 \n[gw1] [ 18%] PASSED tests/test_edge_cases.py::test_body_align_right \n[gw3] [ 19%] PASSED tests/test_edge_cases.py::test_style_ascii2 \n[gw2] [ 20%] PASSED tests/test_edge_cases.py::test_custom_pipe_delimiter \ntests/test_edge_cases.py::test_single_cell_csv \n[gw0] [ 20%] PASSED tests/test_edge_cases.py::test_single_cell_csv \ntests/test_edge_cases.py::test_body_align_center \ntests/test_edge_cases.py::test_no_headers_flag \ntests/test_edge_cases.py::test_style_none_no_borders \n[gw2] [ 21%] PASSED tests/test_edge_cases.py::test_no_headers_flag \n[gw1] [ 22%] PASSED tests/test_edge_cases.py::test_body_align_center \n[gw3] [ 22%] PASSED tests/test_edge_cases.py::test_style_none_no_borders \ntests/test_edge_cases.py::test_single_column_multiple_rows \n[gw0] [ 23%] PASSED tests/test_edge_cases.py::test_single_column_multiple_rows \ntests/test_edge_cases.py::test_stdin_input_with_unicode \ntests/test_formatting.py::test_indent_five \ntests/test_formatting.py::test_alignment_combo_header_left_body_right \n[gw2] [ 24%] PASSED tests/test_formatting.py::test_indent_five \n[gw1] [ 24%] PASSED tests/test_edge_cases.py::test_stdin_input_with_unicode \n[gw3] [ 25%] PASSED tests/test_formatting.py::test_alignment_combo_header_left_body_right \ntests/test_formatting.py::test_combo_padding_indent_number \n[gw0] [ 26%] PASSED tests/test_formatting.py::test_combo_padding_indent_number \ntests/test_formatting.py::test_indent_ten \ntests/test_edge_cases.py::test_large_dataset_1000_rows \ntests/test_formatting.py::test_alignment_combo_header_right_body_center \n[gw2] [ 26%] PASSED tests/test_formatting.py::test_indent_ten \n[gw3] [ 27%] PASSED tests/test_formatting.py::test_alignment_combo_header_right_body_center \n[gw1] [ 28%] PASSED tests/test_edge_cases.py::test_large_dataset_1000_rows \ntests/test_formatting.py::test_combo_padding_zero_with_alignment \n[gw0] [ 28%] PASSED tests/test_formatting.py::test_combo_padding_zero_with_alignment \ntests/test_formatting.py::test_header_align_left \ntests/test_formatting.py::test_padding_zero \ntests/test_formatting.py::test_number_basic \n[gw1] [ 29%] PASSED tests/test_formatting.py::test_padding_zero \n[gw2] [ 30%] PASSED tests/test_formatting.py::test_header_align_left \n[gw3] [ 30%] PASSED tests/test_formatting.py::test_number_basic \ntests/test_formatting.py::test_cjk_emoji_with_padding \n[gw0] [ 31%] PASSED tests/test_formatting.py::test_cjk_emoji_with_padding \ntests/test_formatting.py::test_padding_default \ntests/test_formatting.py::test_header_align_center \ntests/test_formatting.py::test_number_many_rows \n[gw2] [ 32%] PASSED tests/test_formatting.py::test_header_align_center \n[gw1] [ 32%] PASSED tests/test_formatting.py::test_padding_default \ntests/test_formatting.py::test_cjk_with_number_and_center_align \n[gw3] [ 33%] PASSED tests/test_formatting.py::test_number_many_rows \n[gw0] [ 33%] PASSED tests/test_formatting.py::test_cjk_with_number_and_center_align \ntests/test_formatting.py::test_header_align_right \ntests/test_formatting.py::test_padding_large \ntests/test_formatting.py::test_sniff_limited_100 \n[gw1] [ 34%] PASSED tests/test_formatting.py::test_padding_large \n[gw2] [ 35%] PASSED tests/test_formatting.py::test_header_align_right \ntests/test_formatting.py::test_style_ascii_with_padding \n[gw0] [ 35%] PASSED tests/test_formatting.py::test_style_ascii_with_padding \n[gw3] [ 36%] PASSED tests/test_formatting.py::test_sniff_limited_100 \ntests/test_formatting.py::test_body_align_left \ntests/test_formatting.py::test_padding_three \ntests/test_formatting.py::test_sniff_unlimited \n[gw1] [ 37%] PASSED tests/test_formatting.py::test_padding_three \n[gw2] [ 37%] PASSED tests/test_formatting.py::test_body_align_left \ntests/test_formatting.py::test_style_markdown_with_indent \n[gw0] [ 38%] PASSED tests/test_formatting.py::test_style_markdown_with_indent \n[gw3] [ 39%] PASSED tests/test_formatting.py::test_sniff_unlimited \ntests/test_formatting.py::test_body_align_center \ntests/test_formatting.py::test_indent_zero \ntests/test_formatting.py::test_sniff_default_1000 \n[gw1] [ 39%] PASSED tests/test_formatting.py::test_indent_zero \n[gw2] [ 40%] PASSED tests/test_formatting.py::test_body_align_center \ntests/test_formatting.py::test_style_grid_with_number \n[gw3] [ 41%] PASSED tests/test_formatting.py::test_sniff_default_1000 \n[gw0] [ 41%] PASSED tests/test_formatting.py::test_style_grid_with_number \ntests/test_formatting.py::test_indent_two \ntests/test_formatting.py::test_body_align_right \ntests/test_formatting.py::test_style_none_with_padding \n[gw1] [ 42%] PASSED tests/test_formatting.py::test_indent_two \n[gw2] [ 43%] PASSED tests/test_formatting.py::test_body_align_right \n[gw3] [ 43%] PASSED tests/test_formatting.py::test_style_none_with_padding \ntests/test_formatting.py::test_reinforced_style_with_many_columns \n[gw0] [ 44%] PASSED tests/test_formatting.py::test_reinforced_style_with_many_columns \ntests/test_formatting.py::test_style_none_with_number_and_padding \ntests/test_input.py::test_no_headers_flag \ntests/test_formatting.py::test_empty_cells_with_center_align_and_number \n[gw1] [ 45%] PASSED tests/test_formatting.py::test_style_none_with_number_and_padding \n[gw2] [ 45%] PASSED tests/test_input.py::test_no_headers_flag \n[gw3] [ 46%] PASSED tests/test_formatting.py::test_empty_cells_with_center_align_and_number \ntests/test_formatting.py::test_ascii2_style_with_number_and_indent \n[gw0] [ 47%] PASSED tests/test_formatting.py::test_ascii2_style_with_number_and_indent \ntests/test_input.py::test_file_not_found_error \ntests/test_formatting.py::test_markdown_with_number_and_mixed_alignment \ntests/test_formatting.py::test_varying_column_widths_with_right_align \n[gw2] [ 47%] PASSED tests/test_input.py::test_file_not_found_error \n[gw1] [ 48%] PASSED tests/test_formatting.py::test_markdown_with_number_and_mixed_alignment \n[gw3] [ 49%] PASSED tests/test_formatting.py::test_varying_column_widths_with_right_align \ntests/test_formatting.py::test_no_headers_with_number_and_padding \n[gw0] [ 49%] PASSED tests/test_formatting.py::test_no_headers_with_number_and_padding \ntests/test_input.py::test_empty_file_input \ntests/test_input.py::test_file_input_basic_csv \ntests/test_formatting.py::test_single_row_with_number_and_indent \n[gw2] [ 50%] PASSED tests/test_input.py::test_empty_file_input \n[gw1] [ 50%] PASSED tests/test_input.py::test_file_input_basic_csv \n[gw3] [ 51%] PASSED tests/test_formatting.py::test_single_row_with_number_and_indent \ntests/test_formatting.py::test_very_wide_cell_with_zero_padding \n[gw0] [ 52%] PASSED tests/test_formatting.py::test_very_wide_cell_with_zero_padding \ntests/test_input.py::test_empty_stdin_input \ntests/test_input.py::test_stdin_input_basic_csv \ntests/test_formatting.py::test_single_column_with_padding_and_center \n[gw2] [ 52%] PASSED tests/test_input.py::test_empty_stdin_input \n[gw1] [ 53%] PASSED tests/test_input.py::test_stdin_input_basic_csv \n[gw3] [ 54%] PASSED tests/test_formatting.py::test_single_column_with_padding_and_center \ntests/test_formatting.py::test_extreme_padding_and_indent \n[gw0] [ 54%] PASSED tests/test_formatting.py::test_extreme_padding_and_indent \ntests/test_input.py::test_unequal_row_lengths_too_few_fields \ntests/test_input.py::test_tsv_delimiter_flag \ntests/test_formatting.py::test_complex_combination_all_options \n[gw2] [ 55%] PASSED tests/test_input.py::test_unequal_row_lengths_too_few_fields \n[gw1] [ 56%] PASSED tests/test_input.py::test_tsv_delimiter_flag \n[gw3] [ 56%] PASSED tests/test_formatting.py::test_complex_combination_all_options \ntests/test_formatting.py::test_sniff_one_row_with_wide_cell \n[gw0] [ 57%] PASSED tests/test_formatting.py::test_sniff_one_row_with_wide_cell \ntests/test_input.py::test_unequal_row_lengths_too_many_fields \ntests/test_input.py::test_custom_delimiter_pipe \ntests/test_input.py::test_semicolon_custom_delimiter \n[gw2] [ 58%] PASSED tests/test_input.py::test_unequal_row_lengths_too_many_fields \n[gw1] [ 58%] PASSED tests/test_input.py::test_custom_delimiter_pipe \n[gw3] [ 59%] PASSED tests/test_input.py::test_semicolon_custom_delimiter \ntests/test_input.py::test_empty_fields_in_middle_of_row \n[gw0] [ 60%] PASSED tests/test_input.py::test_empty_fields_in_middle_of_row \ntests/test_input.py::test_single_column_csv \ntests/test_input.py::test_single_data_row_no_headers \ntests/test_input.py::test_large_multirow_csv \n[gw2] [ 60%] PASSED tests/test_input.py::test_single_column_csv \n[gw1] [ 61%] PASSED tests/test_input.py::test_single_data_row_no_headers \n[gw3] [ 62%] PASSED tests/test_input.py::test_large_multirow_csv \ntests/test_input.py::test_crlf_line_endings \n[gw0] [ 62%] PASSED tests/test_input.py::test_crlf_line_endings \ntests/test_input.py::test_header_only_no_data_rows \ntests/test_input.py::test_numeric_values_preserved_as_text \ntests/test_input.py::test_tsv_with_no_headers_combined_flags \n[gw2] [ 63%] PASSED tests/test_input.py::test_header_only_no_data_rows \n[gw1] [ 64%] PASSED tests/test_input.py::test_numeric_values_preserved_as_text \n[gw3] [ 64%] PASSED tests/test_input.py::test_tsv_with_no_headers_combined_flags \ntests/test_input.py::test_tsv_from_stdin \n[gw0] [ 65%] PASSED tests/test_input.py::test_tsv_from_stdin \ntests/test_input.py::test_unicode_characters_in_data \ntests/test_input.py::test_special_characters_in_quoted_fields \ntests/test_input.py::test_long_field_content_column_width \n[gw2] [ 66%] PASSED tests/test_input.py::test_unicode_characters_in_data \n[gw3] [ 66%] PASSED tests/test_input.py::test_long_field_content_column_width \n[gw1] [ 67%] PASSED tests/test_input.py::test_special_characters_in_quoted_fields \ntests/test_input.py::test_mixed_line_endings_in_same_file \n[gw0] [ 67%] PASSED tests/test_input.py::test_mixed_line_endings_in_same_file \ntests/test_input.py::test_quoted_fields_with_embedded_delimiters \ntests/test_input.py::test_whitespace_preservation_in_fields \ntests/test_input.py::test_custom_delimiter_from_stdin \n[gw2] [ 68%] PASSED tests/test_input.py::test_quoted_fields_with_embedded_delimiters \n[gw3] [ 69%] PASSED tests/test_input.py::test_whitespace_preservation_in_fields \n[gw1] [ 69%] PASSED tests/test_input.py::test_custom_delimiter_from_stdin \ntests/test_input.py::test_wrong_delimiter_treats_whole_line_as_single_field \n[gw0] [ 70%] PASSED tests/test_input.py::test_wrong_delimiter_treats_whole_line_as_single_field \ntests/test_input.py::test_tsv_flag_on_csv_data_treats_as_single_column \ntests/test_styles.py::test_style_none_simple \ntests/test_styles.py::test_style_sharp_simple \n[gw2] [ 71%] PASSED tests/test_input.py::test_tsv_flag_on_csv_data_treats_as_single_column \n[gw3] [ 71%] PASSED tests/test_styles.py::test_style_none_simple \n[gw1] [ 72%] PASSED tests/test_styles.py::test_style_sharp_simple \ntests/test_input.py::test_trailing_delimiter_empty_last_field \n[gw0] [ 73%] PASSED tests/test_input.py::test_trailing_delimiter_empty_last_field \ntests/test_input.py::test_emoji_wide_unicode_characters \ntests/test_styles.py::test_style_ascii_simple \ntests/test_styles.py::test_style_rounded_simple \n[gw2] [ 73%] PASSED tests/test_input.py::test_emoji_wide_unicode_characters \n[gw3] [ 74%] PASSED tests/test_styles.py::test_style_ascii_simple \n[gw1] [ 75%] PASSED tests/test_styles.py::test_style_rounded_simple \ntests/test_input.py::test_leading_delimiter_empty_first_field \n[gw0] [ 75%] PASSED tests/test_input.py::test_leading_delimiter_empty_first_field \ntests/test_input.py::test_header_only_with_no_headers_flag \ntests/test_styles.py::test_style_ascii2_simple \ntests/test_styles.py::test_style_reinforced_simple \n[gw2] [ 76%] PASSED tests/test_input.py::test_header_only_with_no_headers_flag \n[gw3] [ 77%] PASSED tests/test_styles.py::test_style_ascii2_simple \n[gw1] [ 77%] PASSED tests/test_styles.py::test_style_reinforced_simple \ntests/test_input.py::test_all_empty_fields_csv \n[gw0] [ 78%] PASSED tests/test_input.py::test_all_empty_fields_csv \ntests/test_seed.py::test_basic_help \ntests/test_styles.py::test_style_markdown_simple \ntests/test_styles.py::test_style_grid_multi_column \n[gw2] [ 79%] PASSED tests/test_seed.py::test_basic_help \n[gw3] [ 79%] PASSED tests/test_styles.py::test_style_markdown_simple \n[gw1] [ 80%] PASSED tests/test_styles.py::test_style_grid_multi_column \ntests/test_styles.py::test_style_ascii_multi_column \n[gw0] [ 81%] PASSED tests/test_styles.py::test_style_ascii_multi_column \ntests/test_styles.py::test_style_sharp_single_column \ntests/test_styles.py::test_style_grid_simple \ntests/test_styles.py::test_style_none_multi_column \n[gw2] [ 81%] PASSED tests/test_styles.py::test_style_sharp_single_column \n[gw3] [ 82%] PASSED tests/test_styles.py::test_style_grid_simple \n[gw1] [ 83%] PASSED tests/test_styles.py::test_style_none_multi_column \ntests/test_styles.py::test_style_markdown_multi_column \n[gw0] [ 83%] PASSED tests/test_styles.py::test_style_markdown_multi_column \ntests/test_styles.py::test_style_sharp_large_table \n[gw2] [ 84%] PASSED tests/test_styles.py::test_style_sharp_large_table \ntests/test_styles.py::test_style_sharp_multi_column \ntests/test_styles.py::test_style_padding_zero \n[gw1] [ 84%] PASSED tests/test_styles.py::test_style_padding_zero \n[gw3] [ 85%] PASSED tests/test_styles.py::test_style_sharp_multi_column \ntests/test_styles.py::test_style_padding_three \n[gw0] [ 86%] PASSED tests/test_styles.py::test_style_padding_three \ntests/test_styles.py::test_style_indent_four \n[gw2] [ 86%] PASSED tests/test_styles.py::test_style_indent_four \ntests/test_styles.py::test_header_align_right \ntests/test_styles.py::test_header_align_left \n[gw1] [ 87%] PASSED tests/test_styles.py::test_header_align_right \n[gw3] [ 88%] PASSED tests/test_styles.py::test_header_align_left \ntests/test_styles.py::test_body_align_center \n[gw0] [ 88%] PASSED tests/test_styles.py::test_body_align_center \ntests/test_styles.py::test_body_align_right \ntests/test_styles.py::test_header_only_table \n[gw2] [ 89%] PASSED tests/test_styles.py::test_body_align_right \ntests/test_styles.py::test_unicode_content_rendering \n[gw1] [ 90%] PASSED tests/test_styles.py::test_header_only_table \ntests/test_styles.py::test_style_rounded_large_table \n[gw3] [ 90%] PASSED tests/test_styles.py::test_unicode_content_rendering \n[gw0] [ 91%] PASSED tests/test_styles.py::test_style_rounded_large_table \ntests/test_styles.py::test_style_ascii_large_table \ntests/test_styles.py::test_style_grid_large_table \ntests/test_styles.py::test_style_rounded_multi_column \n[gw2] [ 92%] PASSED tests/test_styles.py::test_style_ascii_large_table \n[gw1] [ 92%] PASSED tests/test_styles.py::test_style_grid_large_table \n[gw3] [ 93%] PASSED tests/test_styles.py::test_style_rounded_multi_column \ntests/test_styles.py::test_style_reinforced_multi_column \n[gw0] [ 94%] PASSED tests/test_styles.py::test_style_reinforced_multi_column \ntests/test_styles.py::test_style_ascii2_multi_column \ntests/test_styles.py::test_style_markdown_with_padding_and_alignment \ntests/test_styles.py::test_style_ascii2_with_zero_padding \n[gw2] [ 94%] PASSED tests/test_styles.py::test_style_ascii2_multi_column \n[gw3] [ 95%] PASSED tests/test_styles.py::test_style_ascii2_with_zero_padding \n[gw1] [ 96%] PASSED tests/test_styles.py::test_style_markdown_with_padding_and_alignment \ntests/test_styles.py::test_empty_csv_with_sharp_style \n[gw0] [ 96%] PASSED tests/test_styles.py::test_empty_csv_with_sharp_style \ntests/test_styles.py::test_empty_csv_with_none_style \ntests/test_styles.py::test_empty_csv_with_grid_style \ntests/test_styles.py::test_very_wide_columns \n[gw2] [ 97%] PASSED tests/test_styles.py::test_empty_csv_with_none_style \n[gw1] [ 98%] PASSED tests/test_styles.py::test_empty_csv_with_grid_style \n[gw3] [ 98%] PASSED tests/test_styles.py::test_very_wide_columns \ntests/test_styles.py::test_grid_with_padding_zero_and_indent \n[gw0] [ 99%] PASSED tests/test_styles.py::test_grid_with_padding_zero_and_indent \ntests/test_styles.py::test_reinforced_complex_formatting \n[gw2] [100%] PASSED tests/test_styles.py::test_reinforced_complex_formatting \n\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n============================= 153 passed in 2.09s ==============================\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.08585480391047895,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 117cf1b9f7e8f454c031e2fe663079ff3438b1b2d86824e880c7ad4d3aef4fc7:/workspace/eval/results.xml /tmp/tmpdggnhh61.xml",
+      "wall_time": 0.021618155064061284,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"0\" skipped=\"0\" tests=\"153\" time=\"2.092\" timestamp=\"2026-05-22T12:06:55.256852+00:00\" hostname=\"117cf1b9f7e8\"><testcase classname=\"tests.test_edge_cases\" name=\"test_single_row_csv\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_cjk_align_right\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_padding_zero\" time=\"0.005\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_ascii_only_baseline\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_very_long_cell_content\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_indent_4\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_mixed_unicode_with_line_numbers\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_latin_extended_characters\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_trailing_comma_empty_column\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_sniff_limit_truncates_wide_content\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_emoji_markdown_style\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_cjk_character_rendering\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_quoted_fields_with_embedded_newlines\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_cjk_ascii_style\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_sniff_unlimited_full_width\" time=\"0.005\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_emoji_rendering\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_style_rounded\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_unequal_field_lengths_error\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_all_cells_empty\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_mixed_unicode_in_same_cell\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_all_identical_cells\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_style_reinforced\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_non_utf8_input_error\" time=\"0.005\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_completely_empty_input\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_deeply_nested_quotes\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_style_grid\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_tsv_tab_delimiter\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_header_only_no_data_rows\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_body_align_right\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_custom_pipe_delimiter\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_style_ascii2\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_single_cell_csv\" time=\"0.002\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_no_headers_flag\" time=\"0.003\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_body_align_center\" time=\"0.005\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_style_none_no_borders\" time=\"0.005\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_single_column_multiple_rows\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_indent_five\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_stdin_input_with_unicode\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_alignment_combo_header_left_body_right\" time=\"0.003\" /><testcase classname=\"tests.test_formatting\" name=\"test_combo_padding_indent_number\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_indent_ten\" time=\"0.003\" /><testcase classname=\"tests.test_formatting\" name=\"test_alignment_combo_header_right_body_center\" time=\"0.004\" /><testcase classname=\"tests.test_edge_cases\" name=\"test_large_dataset_1000_rows\" time=\"0.008\" /><testcase classname=\"tests.test_formatting\" name=\"test_combo_padding_zero_with_alignment\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_padding_zero\" time=\"0.006\" /><testcase classname=\"tests.test_formatting\" name=\"test_header_align_left\" time=\"0.006\" /><testcase classname=\"tests.test_formatting\" name=\"test_number_basic\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_cjk_emoji_with_padding\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_header_align_center\" time=\"0.003\" /><testcase classname=\"tests.test_formatting\" name=\"test_padding_default\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_number_many_rows\" time=\"0.009\" /><testcase classname=\"tests.test_formatting\" name=\"test_cjk_with_number_and_center_align\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_padding_large\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_header_align_right\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_style_ascii_with_padding\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_sniff_limited_100\" time=\"0.013\" /><testcase classname=\"tests.test_formatting\" name=\"test_padding_three\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_body_align_left\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_style_markdown_with_indent\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_sniff_unlimited\" time=\"0.016\" /><testcase classname=\"tests.test_formatting\" name=\"test_indent_zero\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_body_align_center\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_sniff_default_1000\" time=\"0.012\" /><testcase classname=\"tests.test_formatting\" name=\"test_style_grid_with_number\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_indent_two\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_body_align_right\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_style_none_with_padding\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_reinforced_style_with_many_columns\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_no_headers_flag\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_style_none_with_number_and_padding\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_empty_cells_with_center_align_and_number\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_ascii2_style_with_number_and_indent\" time=\"0.005\" /><testcase classname=\"tests.test_input\" name=\"test_file_not_found_error\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_markdown_with_number_and_mixed_alignment\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_varying_column_widths_with_right_align\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_no_headers_with_number_and_padding\" time=\"0.005\" /><testcase classname=\"tests.test_input\" name=\"test_file_input_basic_csv\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_empty_file_input\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_single_row_with_number_and_indent\" time=\"0.005\" /><testcase classname=\"tests.test_formatting\" name=\"test_very_wide_cell_with_zero_padding\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_empty_stdin_input\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_stdin_input_basic_csv\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_single_column_with_padding_and_center\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_extreme_padding_and_indent\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_unequal_row_lengths_too_few_fields\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_tsv_delimiter_flag\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_complex_combination_all_options\" time=\"0.004\" /><testcase classname=\"tests.test_formatting\" name=\"test_sniff_one_row_with_wide_cell\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_unequal_row_lengths_too_many_fields\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_custom_delimiter_pipe\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_semicolon_custom_delimiter\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_empty_fields_in_middle_of_row\" time=\"0.005\" /><testcase classname=\"tests.test_input\" name=\"test_single_column_csv\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_single_data_row_no_headers\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_large_multirow_csv\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_crlf_line_endings\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_header_only_no_data_rows\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_numeric_values_preserved_as_text\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_tsv_with_no_headers_combined_flags\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_tsv_from_stdin\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_unicode_characters_in_data\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_long_field_content_column_width\" time=\"0.002\" /><testcase classname=\"tests.test_input\" name=\"test_special_characters_in_quoted_fields\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_mixed_line_endings_in_same_file\" time=\"0.002\" /><testcase classname=\"tests.test_input\" name=\"test_quoted_fields_with_embedded_delimiters\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_whitespace_preservation_in_fields\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_custom_delimiter_from_stdin\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_wrong_delimiter_treats_whole_line_as_single_field\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_tsv_flag_on_csv_data_treats_as_single_column\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_none_simple\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_sharp_simple\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_trailing_delimiter_empty_last_field\" time=\"0.003\" /><testcase classname=\"tests.test_input\" name=\"test_emoji_wide_unicode_characters\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_ascii_simple\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_rounded_simple\" time=\"0.005\" /><testcase classname=\"tests.test_input\" name=\"test_leading_delimiter_empty_first_field\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_header_only_with_no_headers_flag\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_ascii2_simple\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_reinforced_simple\" time=\"0.004\" /><testcase classname=\"tests.test_input\" name=\"test_all_empty_fields_csv\" time=\"0.004\" /><testcase classname=\"tests.test_seed\" name=\"test_basic_help\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_markdown_simple\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_grid_multi_column\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_ascii_multi_column\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_sharp_single_column\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_grid_simple\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_style_none_multi_column\" time=\"0.005\" /><testcase classname=\"tests.test_styles\" name=\"test_style_markdown_multi_column\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_style_sharp_large_table\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_style_sharp_multi_column\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_style_padding_zero\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_style_padding_three\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_indent_four\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_header_align_right\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_header_align_left\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_body_align_center\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_body_align_right\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_header_only_table\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_unicode_content_rendering\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_rounded_large_table\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_ascii_large_table\" time=\"0.005\" /><testcase classname=\"tests.test_styles\" name=\"test_style_grid_large_table\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_rounded_multi_column\" time=\"0.005\" /><testcase classname=\"tests.test_styles\" name=\"test_style_reinforced_multi_column\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_style_ascii2_multi_column\" time=\"0.005\" /><testcase classname=\"tests.test_styles\" name=\"test_style_ascii2_with_zero_padding\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_style_markdown_with_padding_and_alignment\" time=\"0.005\" /><testcase classname=\"tests.test_styles\" name=\"test_empty_csv_with_sharp_style\" time=\"0.004\" /><testcase classname=\"tests.test_styles\" name=\"test_empty_csv_with_none_style\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_empty_csv_with_grid_style\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_very_wide_columns\" time=\"0.002\" /><testcase classname=\"tests.test_styles\" name=\"test_grid_with_padding_zero_and_indent\" time=\"0.003\" /><testcase classname=\"tests.test_styles\" name=\"test_reinforced_complex_formatting\" time=\"0.004\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "d31025219260"
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.11461182800121605,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.07984877610579133,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.08058987790718675,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.09788445802405477,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 4.120335610816255,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 5.0s\ntimeout method: signal\ntimeout func_only: False\ncreated: 4/4 workers\n4 workers [108 items]\n\nscheduling tests via LoadScheduling\n\neval/tests/test_csview.py::test_version_long \neval/tests/test_csview.py::test_single_row \neval/tests/test_csview.py::test_escaped_quotes \neval/tests/test_csview.py::test_empty_csv_stdin \n[gw3] [  0%] PASSED eval/tests/test_csview.py::test_single_row \n[gw0] [  1%] PASSED eval/tests/test_csview.py::test_version_long \n[gw2] [  2%] PASSED eval/tests/test_csview.py::test_escaped_quotes \n[gw1] [  3%] PASSED eval/tests/test_csview.py::test_empty_csv_stdin \neval/tests/test_csview.py::test_default_comma_delimiter \neval/tests/test_csview.py::test_version_short \neval/tests/test_csview.py::test_embedded_newlines \neval/tests/test_csview.py::test_read_from_file \n[gw0] [  4%] PASSED eval/tests/test_csview.py::test_version_short \n[gw2] [  5%] PASSED eval/tests/test_csview.py::test_embedded_newlines \n[gw3] [  6%] PASSED eval/tests/test_csview.py::test_default_comma_delimiter \n[gw1] [  7%] PASSED eval/tests/test_csview.py::test_read_from_file \neval/tests/test_csview.py::test_tsv_short_flag \neval/tests/test_csview.py::test_help_long \neval/tests/test_csview.py::test_commas_in_quoted_fields \neval/tests/test_csview.py::test_read_from_stdin \n[gw3] [  8%] PASSED eval/tests/test_csview.py::test_tsv_short_flag \n[gw0] [  9%] PASSED eval/tests/test_csview.py::test_help_long \n[gw1] [ 10%] PASSED eval/tests/test_csview.py::test_read_from_stdin \n[gw2] [ 11%] PASSED eval/tests/test_csview.py::test_commas_in_quoted_fields \neval/tests/test_csview.py::test_tsv_long_flag \neval/tests/test_csview.py::test_help_short \neval/tests/test_csview.py::test_nonexistent_file \neval/tests/test_csview.py::test_cjk_characters \n[gw0] [ 12%] PASSED eval/tests/test_csview.py::test_help_short \n[gw3] [ 12%] PASSED eval/tests/test_csview.py::test_tsv_long_flag \n[gw2] [ 13%] PASSED eval/tests/test_csview.py::test_cjk_characters \n[gw1] [ 14%] PASSED eval/tests/test_csview.py::test_nonexistent_file \neval/tests/test_csview.py::test_custom_delimiter_short \neval/tests/test_csview.py::test_no_args_no_stdin \neval/tests/test_csview.py::test_empty_file \neval/tests/test_csview.py::test_emoji_characters \n[gw3] [ 15%] PASSED eval/tests/test_csview.py::test_custom_delimiter_short \n[gw0] [ 16%] PASSED eval/tests/test_csview.py::test_no_args_no_stdin \n[gw2] [ 17%] PASSED eval/tests/test_csview.py::test_emoji_characters \n[gw1] [ 18%] PASSED eval/tests/test_csview.py::test_empty_file \neval/tests/test_csview.py::test_no_args_with_stdin \neval/tests/test_csview.py::test_custom_delimiter_long \neval/tests/test_csview.py::test_quoted_fields \neval/tests/test_csview.py::test_single_column \n[gw3] [ 19%] PASSED eval/tests/test_csview.py::test_custom_delimiter_long \n[gw0] [ 20%] PASSED eval/tests/test_csview.py::test_no_args_with_stdin \n[gw1] [ 21%] PASSED eval/tests/test_csview.py::test_quoted_fields \n[gw2] [ 22%] PASSED eval/tests/test_csview.py::test_single_column \neval/tests/test_csview.py::test_pipe_delimiter \neval/tests/test_csview.py::test_line_numbers_short \neval/tests/test_csview.py::test_style_ascii \neval/tests/test_csview.py::test_style_grid \n[gw0] [ 23%] PASSED eval/tests/test_csview.py::test_pipe_delimiter \n[gw3] [ 24%] PASSED eval/tests/test_csview.py::test_line_numbers_short \n[gw1] [ 25%] PASSED eval/tests/test_csview.py::test_style_ascii \n[gw2] [ 25%] PASSED eval/tests/test_csview.py::test_style_grid \neval/tests/test_csview.py::test_line_numbers_long \neval/tests/test_csview.py::test_semicolon_delimiter \neval/tests/test_csview.py::test_style_ascii2 \n[gw3] [ 26%] PASSED eval/tests/test_csview.py::test_line_numbers_long \neval/tests/test_csview.py::test_style_case_insensitive \n[gw0] [ 27%] PASSED eval/tests/test_csview.py::test_semicolon_delimiter \n[gw1] [ 28%] PASSED eval/tests/test_csview.py::test_style_ascii2 \neval/tests/test_csview.py::test_line_numbers_seq_alias \neval/tests/test_csview.py::test_space_delimiter \neval/tests/test_csview.py::test_style_sharp \n[gw1] [ 29%] PASSED eval/tests/test_csview.py::test_style_sharp \n[gw0] [ 30%] PASSED eval/tests/test_csview.py::test_space_delimiter \neval/tests/test_csview.py::test_default_with_headers \neval/tests/test_csview.py::test_style_rounded \n[gw0] [ 31%] PASSED eval/tests/test_csview.py::test_default_with_headers \n[gw1] [ 32%] PASSED eval/tests/test_csview.py::test_style_rounded \neval/tests/test_csview.py::test_no_headers_short \neval/tests/test_csview.py::test_style_reinforced \n[gw0] [ 33%] PASSED eval/tests/test_csview.py::test_no_headers_short \n[gw1] [ 34%] PASSED eval/tests/test_csview.py::test_style_reinforced \neval/tests/test_csview.py::test_no_headers_long \neval/tests/test_csview.py::test_style_markdown \n[gw0] [ 35%] PASSED eval/tests/test_csview.py::test_no_headers_long \n[gw1] [ 36%] PASSED eval/tests/test_csview.py::test_style_markdown \neval/tests/test_csview.py::test_padding_long_flag \neval/tests/test_csview.py::test_sniff_default \n[gw1] [ 37%] PASSED eval/tests/test_csview.py::test_sniff_default \n[gw0] [ 37%] PASSED eval/tests/test_csview.py::test_padding_long_flag \neval/tests/test_csview.py::test_sniff_small_limit \neval/tests/test_csview.py::test_indent_default \n[gw0] [ 38%] PASSED eval/tests/test_csview.py::test_indent_default \n[gw1] [ 39%] PASSED eval/tests/test_csview.py::test_sniff_small_limit \neval/tests/test_csview.py::test_sniff_unlimited \neval/tests/test_csview.py::test_indent_small \n[gw1] [ 40%] PASSED eval/tests/test_csview.py::test_sniff_unlimited \n[gw0] [ 41%] PASSED eval/tests/test_csview.py::test_indent_small \neval/tests/test_csview.py::test_header_align_default \neval/tests/test_csview.py::test_indent_large \n[gw1] [ 42%] PASSED eval/tests/test_csview.py::test_header_align_default \n[gw0] [ 43%] PASSED eval/tests/test_csview.py::test_indent_large \neval/tests/test_csview.py::test_indent_long_flag \neval/tests/test_csview.py::test_header_align_left \n[gw0] [ 44%] PASSED eval/tests/test_csview.py::test_indent_long_flag \n[gw1] [ 45%] PASSED eval/tests/test_csview.py::test_header_align_left \neval/tests/test_csview.py::test_body_align_center \neval/tests/test_csview.py::test_header_align_center \n[gw1] [ 46%] PASSED eval/tests/test_csview.py::test_body_align_center \n[gw0] [ 47%] PASSED eval/tests/test_csview.py::test_header_align_center \neval/tests/test_csview.py::test_header_align_right \neval/tests/test_csview.py::test_body_align_right \n[gw1] [ 48%] PASSED eval/tests/test_csview.py::test_body_align_right \n[gw0] [ 49%] PASSED eval/tests/test_csview.py::test_header_align_right \neval/tests/test_csview.py::test_combined_alignments \neval/tests/test_csview.py::test_body_align_default \n[gw1] [ 50%] PASSED eval/tests/test_csview.py::test_combined_alignments \n[gw0] [ 50%] PASSED eval/tests/test_csview.py::test_body_align_default \neval/tests/test_csview.py::test_disable_pager_short \neval/tests/test_csview.py::test_body_align_left \n[gw0] [ 51%] PASSED eval/tests/test_csview.py::test_body_align_left \n[gw1] [ 52%] PASSED eval/tests/test_csview.py::test_disable_pager_short \neval/tests/test_csview.py::test_disable_pager_long \neval/tests/test_csview.py::test_multiple_flags_combined \n[gw0] [ 53%] PASSED eval/tests/test_csview.py::test_multiple_flags_combined \n[gw1] [ 54%] PASSED eval/tests/test_csview.py::test_disable_pager_long \neval/tests/test_csview.py::test_line_numbers_custom_style \neval/tests/test_csview.py::test_non_utf8_input \n[gw1] [ 55%] PASSED eval/tests/test_csview.py::test_non_utf8_input \n[gw0] [ 56%] PASSED eval/tests/test_csview.py::test_line_numbers_custom_style \neval/tests/test_csview.py::test_no_headers_line_numbers \neval/tests/test_csview.py::test_unequal_row_lengths \n[gw0] [ 57%] PASSED eval/tests/test_csview.py::test_no_headers_line_numbers \n[gw1] [ 58%] PASSED eval/tests/test_csview.py::test_unequal_row_lengths \neval/tests/test_csview.py::test_custom_delimiter_custom_style \neval/tests/test_csview.py::test_invalid_file_path \n[gw0] [ 59%] PASSED eval/tests/test_csview.py::test_custom_delimiter_custom_style \n[gw1] [ 60%] PASSED eval/tests/test_csview.py::test_invalid_file_path \neval/tests/test_csview.py::test_markdown_custom_alignment \neval/tests/test_csview.py::test_all_formatting_options \n[gw1] [ 61%] PASSED eval/tests/test_csview.py::test_markdown_custom_alignment \n[gw0] [ 62%] PASSED eval/tests/test_csview.py::test_all_formatting_options \neval/tests/test_csview.py::test_very_wide_table \neval/tests/test_csview.py::test_tsv_line_numbers \n[gw1] [ 62%] PASSED eval/tests/test_csview.py::test_very_wide_table \n[gw0] [ 63%] PASSED eval/tests/test_csview.py::test_tsv_line_numbers \neval/tests/test_csview.py::test_cells_with_whitespace \neval/tests/test_csview.py::test_empty_cells \n[gw0] [ 64%] PASSED eval/tests/test_csview.py::test_cells_with_whitespace \n[gw1] [ 65%] PASSED eval/tests/test_csview.py::test_empty_cells \neval/tests/test_csview.py::test_mixed_width_unicode \neval/tests/test_csview.py::test_long_cell_content \n[gw1] [ 66%] PASSED eval/tests/test_csview.py::test_mixed_width_unicode \n[gw0] [ 67%] PASSED eval/tests/test_csview.py::test_long_cell_content \neval/tests/test_csview.py::test_trailing_whitespace \neval/tests/test_csview.py::test_windows_line_endings \n[gw1] [ 68%] PASSED eval/tests/test_csview.py::test_trailing_whitespace \n[gw0] [ 69%] PASSED eval/tests/test_csview.py::test_windows_line_endings \neval/tests/test_csview.py::test_file_with_many_columns \neval/tests/test_csview.py::test_large_file \n[gw1] [ 70%] PASSED eval/tests/test_csview.py::test_file_with_many_columns \n[gw0] [ 71%] PASSED eval/tests/test_csview.py::test_large_file \neval/tests/test_csview.py::test_various_delimiters \neval/tests/test_csview.py::test_all_styles_with_data \n[gw1] [ 72%] PASSED eval/tests/test_csview.py::test_various_delimiters \n[gw0] [ 73%] PASSED eval/tests/test_csview.py::test_all_styles_with_data \neval/tests/test_csview.py::test_padding_range \neval/tests/test_csview.py::test_indent_range \n[gw0] [ 74%] PASSED eval/tests/test_csview.py::test_indent_range \n[gw1] [ 75%] PASSED eval/tests/test_csview.py::test_padding_range \n[gw2] [ 75%] RERUN eval/tests/test_csview.py::test_style_case_insensitive \neval/tests/test_csview.py::test_style_case_insensitive \neval/tests/test_csview.py::test_sniff_range \neval/tests/test_csview.py::test_all_alignments \n[gw1] [ 76%] PASSED eval/tests/test_csview.py::test_sniff_range \n[gw3] [ 77%] RERUN eval/tests/test_csview.py::test_line_numbers_seq_alias \neval/tests/test_csview.py::test_line_numbers_seq_alias \n[gw0] [ 78%] PASSED eval/tests/test_csview.py::test_all_alignments \neval/tests/test_csview.py::test_multiline_cells \neval/tests/test_csview.py::test_complex_quoted_csv \n[gw0] [ 79%] PASSED eval/tests/test_csview.py::test_complex_quoted_csv \n[gw1] [ 80%] PASSED eval/tests/test_csview.py::test_multiline_cells \neval/tests/test_csview.py::test_unicode_in_headers \neval/tests/test_csview.py::test_mixed_content_widths \n[gw1] [ 81%] PASSED eval/tests/test_csview.py::test_unicode_in_headers \n[gw0] [ 82%] PASSED eval/tests/test_csview.py::test_mixed_content_widths \neval/tests/test_csview.py::test_empty_rows_handling \neval/tests/test_csview.py::test_tsv_with_various_options \n[gw0] [ 83%] PASSED eval/tests/test_csview.py::test_empty_rows_handling \n[gw1] [ 84%] PASSED eval/tests/test_csview.py::test_tsv_with_various_options \neval/tests/test_csview.py::test_no_headers_with_line_numbers_and_style \neval/tests/test_csview.py::test_custom_delimiter_edge_cases \n[gw0] [ 85%] PASSED eval/tests/test_csview.py::test_no_headers_with_line_numbers_and_style \n[gw1] [ 86%] PASSED eval/tests/test_csview.py::test_custom_delimiter_edge_cases \neval/tests/test_csview.py::test_very_long_lines \neval/tests/test_csview.py::test_file_with_bom \n[gw1] [ 87%] PASSED eval/tests/test_csview.py::test_very_long_lines \n[gw0] [ 87%] PASSED eval/tests/test_csview.py::test_file_with_bom \neval/tests/test_csview.py::test_special_chars_in_data \neval/tests/test_csview.py::test_numeric_data \n[gw1] [ 88%] PASSED eval/tests/test_csview.py::test_special_chars_in_data \n[gw0] [ 89%] PASSED eval/tests/test_csview.py::test_numeric_data \neval/tests/test_csview.py::test_grid_vs_sharp_difference \neval/tests/test_csview.py::test_markdown_table_format \n[gw0] [ 90%] PASSED eval/tests/test_csview.py::test_markdown_table_format \n[gw1] [ 91%] PASSED eval/tests/test_csview.py::test_grid_vs_sharp_difference \neval/tests/test_csview.py::test_multiple_emoji_types \neval/tests/test_csview.py::test_none_style_output \n[gw0] [ 92%] PASSED eval/tests/test_csview.py::test_multiple_emoji_types \n[gw1] [ 93%] PASSED eval/tests/test_csview.py::test_none_style_output \neval/tests/test_csview.py::test_zero_width_joiners \n[gw0] [ 94%] PASSED eval/tests/test_csview.py::test_zero_width_joiners \n[gw2] [ 94%] RERUN eval/tests/test_csview.py::test_style_case_insensitive \neval/tests/test_csview.py::test_style_case_insensitive \n[gw3] [ 94%] RERUN eval/tests/test_csview.py::test_line_numbers_seq_alias \neval/tests/test_csview.py::test_line_numbers_seq_alias \n[gw3] [ 94%] FAILED eval/tests/test_csview.py::test_line_numbers_seq_alias \neval/tests/test_csview.py::test_line_numbers_no_headers \n[gw3] [ 95%] PASSED eval/tests/test_csview.py::test_line_numbers_no_headers \n[gw2] [ 95%] FAILED eval/tests/test_csview.py::test_style_case_insensitive \neval/tests/test_csview.py::test_padding_default \n[gw2] [ 96%] PASSED eval/tests/test_csview.py::test_padding_default \neval/tests/test_csview.py::test_style_default_sharp \n[gw3] [ 97%] PASSED eval/tests/test_csview.py::test_style_default_sharp \neval/tests/test_csview.py::test_padding_zero \n[gw2] [ 98%] PASSED eval/tests/test_csview.py::test_padding_zero \neval/tests/test_csview.py::test_style_none \n[gw3] [ 99%] PASSED eval/tests/test_csview.py::test_style_none \neval/tests/test_csview.py::test_padding_large \n[gw2] [100%] PASSED eval/tests/test_csview.py::test_padding_large \n\n=================================== FAILURES ===================================\n_________________________ test_line_numbers_seq_alias __________________________\n[gw3] linux -- Python 3.10.12 /usr/bin/python3\n\n    def test_line_numbers_seq_alias():\n        \"\"\"Test line numbering with --seq alias.\"\"\"\n        csv_data = \"A,B\\n1,2\\n3,4\"\n        result = run(\"--seq\", stdin=csv_data)\n>       assert result.returncode == 0\nE       assert 2 == 0\nE        +  where 2 = CompletedProcess(args=['./executable', '--seq'], returncode=2, stdout=b'', stderr=b\"error: unexpected argument '--seq' found\\n\\n  tip: to pass '--seq' as a value, use '-- --seq'\\n\\nUsage: executable [OPTIONS] [FILE]\\n\\nFor more information, try '--help'.\\n\").returncode\n\neval/tests/test_csview.py:358: AssertionError\n_________________________ test_style_case_insensitive __________________________\n[gw2] linux -- Python 3.10.12 /usr/bin/python3\n\n    def test_style_case_insensitive():\n        \"\"\"Test that style names are case insensitive.\"\"\"\n        csv_data = \"A,B\\n1,2\"\n        result1 = run(\"-s\", \"MARKDOWN\", stdin=csv_data)\n        result2 = run(\"-s\", \"markdown\", stdin=csv_data)\n        result3 = run(\"-s\", \"MarkDown\", stdin=csv_data)\n>       assert result1.returncode == 0\nE       assert 2 == 0\nE        +  where 2 = CompletedProcess(args=['./executable', '-s', 'MARKDOWN'], returncode=2, stdout=b'', stderr=b\"error: invalid value 'MARKDOWN' for '--style <STYLE>'\\n  [possible values: none, ascii, ascii2, sharp, rounded, reinforced, markdown, grid]\\n\\nFor more information, try '--help'.\\n\").returncode\n\neval/tests/test_csview.py:473: AssertionError\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n=========================== short test summary info ============================\nFAILED eval/tests/test_csview.py::test_line_numbers_seq_alias - assert 2 == 0\nFAILED eval/tests/test_csview.py::test_style_case_insensitive - assert 2 == 0\n==================== 2 failed, 106 passed, 4 rerun in 3.11s ====================\n",
+      "returncode": 1,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.11572458106093109,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 1eca5e7e695a9e0024283e61956c6797c013cfd7b578ac24d3e1fa09e2fe5f3f:/workspace/eval/results.xml /tmp/tmp_pubswp1.xml",
+      "wall_time": 0.0245747200679034,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"2\" skipped=\"0\" tests=\"108\" time=\"3.096\" timestamp=\"2026-05-22T12:06:55.111368+00:00\" hostname=\"1eca5e7e695a\"><testcase classname=\"eval.tests.test_csview\" name=\"test_single_row\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_version_long\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_escaped_quotes\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_empty_csv_stdin\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_version_short\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_embedded_newlines\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_default_comma_delimiter\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_read_from_file\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_tsv_short_flag\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_help_long\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_read_from_stdin\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_commas_in_quoted_fields\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_tsv_long_flag\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_help_short\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_cjk_characters\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_nonexistent_file\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_custom_delimiter_short\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_no_args_no_stdin\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_emoji_characters\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_empty_file\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_no_args_with_stdin\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_custom_delimiter_long\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_quoted_fields\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_single_column\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_pipe_delimiter\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_line_numbers_short\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_ascii\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_grid\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_line_numbers_long\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_semicolon_delimiter\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_ascii2\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_sharp\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_space_delimiter\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_case_insensitive\" time=\"0.025\"><failure message=\"assert 2 == 0&#10; +  where 2 = CompletedProcess(args=['./executable', '-s', 'MARKDOWN'], returncode=2, stdout=b'', stderr=b&quot;error: invalid value 'MARKDOWN' for '--style &lt;STYLE&gt;'\\n  [possible values: none, ascii, ascii2, sharp, rounded, reinforced, markdown, grid]\\n\\nFor more information, try '--help'.\\n&quot;).returncode\">def test_style_case_insensitive():\n        \"\"\"Test that style names are case insensitive.\"\"\"\n        csv_data = \"A,B\\n1,2\"\n        result1 = run(\"-s\", \"MARKDOWN\", stdin=csv_data)\n        result2 = run(\"-s\", \"markdown\", stdin=csv_data)\n        result3 = run(\"-s\", \"MarkDown\", stdin=csv_data)\n&gt;       assert result1.returncode == 0\nE       assert 2 == 0\nE        +  where 2 = CompletedProcess(args=['./executable', '-s', 'MARKDOWN'], returncode=2, stdout=b'', stderr=b\"error: invalid value 'MARKDOWN' for '--style &lt;STYLE&gt;'\\n  [possible values: none, ascii, ascii2, sharp, rounded, reinforced, markdown, grid]\\n\\nFor more information, try '--help'.\\n\").returncode\n\neval/tests/test_csview.py:473: AssertionError</failure></testcase><testcase classname=\"eval.tests.test_csview\" name=\"test_default_with_headers\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_rounded\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_line_numbers_seq_alias\" time=\"0.011\"><failure message=\"assert 2 == 0&#10; +  where 2 = CompletedProcess(args=['./executable', '--seq'], returncode=2, stdout=b'', stderr=b&quot;error: unexpected argument '--seq' found\\n\\n  tip: to pass '--seq' as a value, use '-- --seq'\\n\\nUsage: executable [OPTIONS] [FILE]\\n\\nFor more information, try '--help'.\\n&quot;).returncode\">def test_line_numbers_seq_alias():\n        \"\"\"Test line numbering with --seq alias.\"\"\"\n        csv_data = \"A,B\\n1,2\\n3,4\"\n        result = run(\"--seq\", stdin=csv_data)\n&gt;       assert result.returncode == 0\nE       assert 2 == 0\nE        +  where 2 = CompletedProcess(args=['./executable', '--seq'], returncode=2, stdout=b'', stderr=b\"error: unexpected argument '--seq' found\\n\\n  tip: to pass '--seq' as a value, use '-- --seq'\\n\\nUsage: executable [OPTIONS] [FILE]\\n\\nFor more information, try '--help'.\\n\").returncode\n\neval/tests/test_csview.py:358: AssertionError</failure></testcase><testcase classname=\"eval.tests.test_csview\" name=\"test_no_headers_short\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_reinforced\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_no_headers_long\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_markdown\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_padding_long_flag\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_sniff_default\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_indent_default\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_sniff_small_limit\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_sniff_unlimited\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_indent_small\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_header_align_default\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_indent_large\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_indent_long_flag\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_header_align_left\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_header_align_center\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_body_align_center\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_body_align_right\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_header_align_right\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_combined_alignments\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_body_align_default\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_body_align_left\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_disable_pager_short\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_disable_pager_long\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_multiple_flags_combined\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_line_numbers_custom_style\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_non_utf8_input\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_no_headers_line_numbers\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_unequal_row_lengths\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_custom_delimiter_custom_style\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_invalid_file_path\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_markdown_custom_alignment\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_all_formatting_options\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_very_wide_table\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_tsv_line_numbers\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_cells_with_whitespace\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_empty_cells\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_mixed_width_unicode\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_long_cell_content\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_trailing_whitespace\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_windows_line_endings\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_file_with_many_columns\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_large_file\" time=\"0.008\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_various_delimiters\" time=\"0.009\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_all_styles_with_data\" time=\"0.021\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_indent_range\" time=\"0.013\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_padding_range\" time=\"0.016\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_sniff_range\" time=\"0.020\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_all_alignments\" time=\"0.023\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_complex_quoted_csv\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_multiline_cells\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_unicode_in_headers\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_mixed_content_widths\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_empty_rows_handling\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_tsv_with_various_options\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_no_headers_with_line_numbers_and_style\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_custom_delimiter_edge_cases\" time=\"0.007\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_very_long_lines\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_file_with_bom\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_special_chars_in_data\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_numeric_data\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_markdown_table_format\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_grid_vs_sharp_difference\" time=\"0.006\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_multiple_emoji_types\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_none_style_output\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_zero_width_joiners\" time=\"0.002\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_line_numbers_no_headers\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_padding_default\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_default_sharp\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_padding_zero\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_style_none\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview\" name=\"test_padding_large\" time=\"0.005\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "a7a2f5f083bf"
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.09277891297824681,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.12237632810138166,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.12016474502161145,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.10528260585851967,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 3.3146787569858134,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 5.0s\ntimeout method: signal\ntimeout func_only: False\ncreated: 4/4 workers\n4 workers [40 items]\n\nscheduling tests via LoadScheduling\n\neval/tests/test_help_output.py::test_help_usage_has_options_and_file \neval/tests/test_help_output.py::test_help_has_trailing_newline \neval/tests/test_help_output.py::test_help_contains_description_line \neval/tests/test_help_output.py::test_help_exit_code_zero \n[gw3] [  2%] PASSED eval/tests/test_help_output.py::test_help_usage_has_options_and_file \n[gw1] [  5%] PASSED eval/tests/test_help_output.py::test_help_has_trailing_newline \n[gw2] [  7%] PASSED eval/tests/test_help_output.py::test_help_contains_description_line \n[gw0] [ 10%] PASSED eval/tests/test_help_output.py::test_help_exit_code_zero \neval/tests/test_help_output.py::test_help_has_arguments_section \neval/tests/test_help_output.py::test_help_short_flag_matches_long_flag \neval/tests/test_help_output.py::test_help_has_usage_section \n[gw3] [ 12%] PASSED eval/tests/test_help_output.py::test_help_has_arguments_section \n[gw2] [ 15%] PASSED eval/tests/test_help_output.py::test_help_has_usage_section \neval/tests/test_help_output.py::test_help_goes_to_stdout \n[gw0] [ 17%] PASSED eval/tests/test_help_output.py::test_help_goes_to_stdout \n[gw1] [ 20%] PASSED eval/tests/test_help_output.py::test_help_short_flag_matches_long_flag \neval/tests/test_help_output.py::test_help_has_options_section \neval/tests/test_help_output.py::test_help_documents_flags[-n] \n[gw3] [ 22%] PASSED eval/tests/test_help_output.py::test_help_has_options_section \n[gw1] [ 25%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-n] \neval/tests/test_help_output.py::test_help_documents_flags[-d] \n[gw0] [ 27%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-d] \neval/tests/test_help_output.py::test_help_documents_flags[-t] \n[gw2] [ 30%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-t] \neval/tests/test_help_output.py::test_help_documents_flags[-H] \neval/tests/test_help_output.py::test_help_documents_flags[--number] \neval/tests/test_help_output.py::test_help_documents_flags[--delimiter] \neval/tests/test_help_output.py::test_help_documents_flags[--tsv] \n[gw1] [ 32%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--number] \n[gw3] [ 35%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-H] \n[gw2] [ 37%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--tsv] \n[gw0] [ 40%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--delimiter] \neval/tests/test_help_output.py::test_help_documents_flags[--no-headers] \neval/tests/test_help_output.py::test_help_documents_flags[-s] \neval/tests/test_help_output.py::test_help_documents_flags[--style] \n[gw1] [ 42%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-s] \n[gw0] [ 45%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--style] \n[gw3] [ 47%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--no-headers] \neval/tests/test_help_output.py::test_help_documents_flags[-p] \n[gw2] [ 50%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-p] \neval/tests/test_help_output.py::test_help_documents_flags[--padding] \neval/tests/test_help_output.py::test_help_documents_flags[-i] \neval/tests/test_help_output.py::test_help_documents_flags[--sniff] \neval/tests/test_help_output.py::test_help_documents_flags[--indent] \n[gw1] [ 52%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--padding] \n[gw3] [ 55%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-i] \n[gw2] [ 57%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--indent] \n[gw0] [ 60%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--sniff] \neval/tests/test_help_output.py::test_help_documents_flags[--body-align] \neval/tests/test_help_output.py::test_help_documents_flags[-P] \neval/tests/test_help_output.py::test_help_documents_flags[--header-align] \neval/tests/test_help_output.py::test_help_documents_flags[--disable-pager] \n[gw3] [ 62%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--body-align] \n[gw1] [ 65%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-P] \n[gw2] [ 67%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--disable-pager] \n[gw0] [ 70%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--header-align] \neval/tests/test_help_output.py::test_help_documents_flags[-h] \neval/tests/test_help_output.py::test_help_documents_flags[--help] \n[gw1] [ 72%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-h] \neval/tests/test_help_output.py::test_help_documents_flags[--version] \n[gw0] [ 75%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--version] \neval/tests/test_help_output.py::test_help_documents_flags[-V] \n[gw3] [ 77%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[--help] \n[gw2] [ 80%] PASSED eval/tests/test_help_output.py::test_help_documents_flags[-V] \neval/tests/test_help_output.py::test_help_includes_default_values_for_key_options \n[gw3] [ 82%] PASSED eval/tests/test_help_output.py::test_help_includes_default_values_for_key_options \neval/tests/test_help_output.py::test_help_has_no_ansi_color_codes \neval/tests/test_help_output.py::test_help_mentions_style_possible_values \n[gw0] [ 85%] PASSED eval/tests/test_help_output.py::test_help_has_no_ansi_color_codes \n[gw1] [ 87%] PASSED eval/tests/test_help_output.py::test_help_mentions_style_possible_values \neval/tests/test_help_output.py::test_help_sniff_option_describes_zero_limit \n[gw2] [ 90%] PASSED eval/tests/test_help_output.py::test_help_sniff_option_describes_zero_limit \neval/tests/test_help_output.py::test_help_output_has_expected_section_order \n[gw3] [ 92%] PASSED eval/tests/test_help_output.py::test_help_output_has_expected_section_order \neval/tests/test_help_output.py::test_help_precedence_over_positional_arg \neval/tests/test_help_output.py::test_help_precedence_over_invalid_flag \neval/tests/test_help_output.py::test_help_output_baseline_normalized_match \n[gw0] [ 95%] PASSED eval/tests/test_help_output.py::test_help_precedence_over_positional_arg \n[gw1] [ 97%] PASSED eval/tests/test_help_output.py::test_help_precedence_over_invalid_flag \n[gw2] [100%] PASSED eval/tests/test_help_output.py::test_help_output_baseline_normalized_match \n\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n============================== 40 passed in 0.91s ==============================\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.09128105011768639,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 46d2b1deaeed87f0ec1e7ab64b24d6963850d520ff2605dc9bcf901400dc3bb9:/workspace/eval/results.xml /tmp/tmpugtevt4l.xml",
+      "wall_time": 0.03351411991752684,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"0\" skipped=\"0\" tests=\"40\" time=\"0.907\" timestamp=\"2026-05-22T12:06:59.711272+00:00\" hostname=\"46d2b1deaeed\"><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_usage_has_options_and_file\" time=\"0.004\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_has_trailing_newline\" time=\"0.004\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_contains_description_line\" time=\"0.004\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_exit_code_zero\" time=\"0.004\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_has_arguments_section\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_has_usage_section\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_goes_to_stdout\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_short_flag_matches_long_flag\" time=\"0.008\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_has_options_section\" time=\"0.000\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-n]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-d]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-t]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--number]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-H]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--tsv]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--delimiter]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-s]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--style]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--no-headers]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-p]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--padding]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-i]\" time=\"0.002\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--sniff]\" time=\"0.002\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--indent]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-P]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--body-align]\" time=\"0.002\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--disable-pager]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--header-align]\" time=\"0.002\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-h]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--version]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[--help]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_documents_flags[-V]\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_includes_default_values_for_key_options\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_has_no_ansi_color_codes\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_mentions_style_possible_values\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_sniff_option_describes_zero_limit\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_output_has_expected_section_order\" time=\"0.001\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_precedence_over_positional_arg\" time=\"0.002\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_precedence_over_invalid_flag\" time=\"0.003\" /><testcase classname=\"eval.tests.test_help_output\" name=\"test_help_output_baseline_normalized_match\" time=\"0.003\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "9ec117cda36f"
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.1250442611053586,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.09327998291701078,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.09659538697451353,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.08789920713752508,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 2.4911681320518255,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 5.0s\ntimeout method: signal\ntimeout func_only: False\ncollecting ... collected 15 items\n\neval/tests/test_cli_basics.py::test_help_exact PASSED                    [  6%]\neval/tests/test_cli_basics.py::test_version_exact PASSED                 [ 13%]\neval/tests/test_cli_basics.py::test_unknown_flag_exit_2_and_message PASSED [ 20%]\neval/tests/test_cli_basics.py::test_invalid_delimiter_empty_string_is_error PASSED [ 26%]\neval/tests/test_rendering_and_options.py::test_render_sample_csv_default_style_exact PASSED [ 33%]\neval/tests/test_rendering_and_options.py::test_render_from_stdin_matches_file PASSED [ 40%]\neval/tests/test_rendering_and_options.py::test_missing_file_exit_1_and_message PASSED [ 46%]\neval/tests/test_rendering_and_options.py::test_tsv_flag_parses_tabs PASSED [ 53%]\neval/tests/test_rendering_and_options.py::test_style_variants[markdown-sample_tsv_style_markdown.txt] PASSED [ 60%]\neval/tests/test_rendering_and_options.py::test_style_variants[none-sample_tsv_style_none.txt] PASSED [ 66%]\neval/tests/test_rendering_and_options.py::test_padding_zero_changes_layout PASSED [ 73%]\neval/tests/test_rendering_and_options.py::test_indent_two_adds_left_spaces PASSED [ 80%]\neval/tests/test_rendering_and_options.py::test_unicode_width_handling_exact PASSED [ 86%]\neval/tests/test_rendering_and_options.py::test_sniff_limit_changes_column_widths PASSED [ 93%]\neval/tests/test_rendering_and_options.py::test_custom_delimiter_colon_on_passwd_head PASSED [100%]\n\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n============================== 15 passed in 0.18s ==============================\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.08723085606470704,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 11d73d680b4fd1c5e20ee60a5515a3e24860a039e8c16d6e061b56adc6d47cee:/workspace/eval/results.xml /tmp/tmpt83f_aw_.xml",
+      "wall_time": 0.03770818607881665,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"0\" skipped=\"0\" tests=\"15\" time=\"0.178\" timestamp=\"2026-05-22T12:07:01.133167+00:00\" hostname=\"11d73d680b4f\"><testcase classname=\"eval.tests.test_cli_basics\" name=\"test_help_exact\" time=\"0.003\" /><testcase classname=\"eval.tests.test_cli_basics\" name=\"test_version_exact\" time=\"0.003\" /><testcase classname=\"eval.tests.test_cli_basics\" name=\"test_unknown_flag_exit_2_and_message\" time=\"0.003\" /><testcase classname=\"eval.tests.test_cli_basics\" name=\"test_invalid_delimiter_empty_string_is_error\" time=\"0.003\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_render_sample_csv_default_style_exact\" time=\"0.005\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_render_from_stdin_matches_file\" time=\"0.007\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_missing_file_exit_1_and_message\" time=\"0.003\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_tsv_flag_parses_tabs\" time=\"0.004\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_style_variants[markdown-sample_tsv_style_markdown.txt]\" time=\"0.004\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_style_variants[none-sample_tsv_style_none.txt]\" time=\"0.003\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_padding_zero_changes_layout\" time=\"0.004\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_indent_two_adds_left_spaces\" time=\"0.003\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_unicode_width_handling_exact\" time=\"0.004\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_sniff_limit_changes_column_widths\" time=\"0.006\" /><testcase classname=\"eval.tests.test_rendering_and_options\" name=\"test_custom_delimiter_colon_on_passwd_head\" time=\"0.003\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "5f4759b87816"
+    },
+    {
+      "step": "restore_executable",
+      "command": "rm -f ./executable && mv /opt/programbench-stashed-executable-do-not-modify ./executable && chmod +x ./executable",
+      "wall_time": 0.10942211095243692,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    },
+    {
+      "step": "verify_executable_hash",
+      "command": "sha256sum ./executable",
+      "wall_time": 0.08743934496305883,
+      "output": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928  ./executable\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    },
+    {
+      "step": "clean_stale_results",
+      "command": "rm -f eval/results.xml results.xml",
+      "wall_time": 0.09984518005512655,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    },
+    {
+      "step": "patch_timeout_method",
+      "command": "test -f eval/run.sh && sed -i 's/--timeout-method=thread/--timeout-method=signal/g' eval/run.sh || true",
+      "wall_time": 0.07903816411271691,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    },
+    {
+      "step": "run_tests",
+      "command": "export PYTEST_ADDOPTS=\"$PYTEST_ADDOPTS --reruns=2 --reruns-delay=1\" && chmod +x ./eval/run.sh && ./eval/run.sh",
+      "wall_time": 2.917661666870117,
+      "output": "============================= test session starts ==============================\nplatform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3\ncachedir: .pytest_cache\nrootdir: /workspace\nplugins: timeout-2.4.0, rerunfailures-16.3, dependency-0.6.1, xdist-3.8.0, libtmux-0.55.0\ntimeout: 5.0s\ntimeout method: signal\ntimeout func_only: False\ncreated: 4/4 workers\n4 workers [8 items]\n\nscheduling tests via LoadScheduling\n\neval/tests/test_csview_io.py::test_nonexistent_file_errors_to_stderr_exit_1 \neval/tests/test_csview_io.py::test_file_input_matches_stdin_output \neval/tests/test_csview_io.py::test_tsv_flag_uses_tab_delimiter_exact_output \neval/tests/test_csview_io.py::test_help_prints_usage_to_stdout_and_exit_0 \n[gw3] [ 12%] PASSED eval/tests/test_csview_io.py::test_nonexistent_file_errors_to_stderr_exit_1 \n[gw2] [ 25%] PASSED eval/tests/test_csview_io.py::test_tsv_flag_uses_tab_delimiter_exact_output \n[gw0] [ 37%] PASSED eval/tests/test_csview_io.py::test_help_prints_usage_to_stdout_and_exit_0 \n[gw1] [ 50%] PASSED eval/tests/test_csview_io.py::test_file_input_matches_stdin_output \neval/tests/test_csview_io.py::test_unreadable_file_permission_denied_exit_1 \n[gw3] [ 62%] SKIPPED eval/tests/test_csview_io.py::test_unreadable_file_permission_denied_exit_1 \neval/tests/test_csview_io.py::test_no_headers_flag_removes_header_separator \neval/tests/test_csview_io.py::test_number_flag_prepends_index_column_exact_output \neval/tests/test_csview_io.py::test_stdin_default_reads_csv_and_ascii_style_output_exact \n[gw2] [ 75%] PASSED eval/tests/test_csview_io.py::test_number_flag_prepends_index_column_exact_output \n[gw1] [ 87%] PASSED eval/tests/test_csview_io.py::test_no_headers_flag_removes_header_separator \n[gw0] [100%] PASSED eval/tests/test_csview_io.py::test_stdin_default_reads_csv_and_ascii_style_output_exact \n\n--------------- generated xml file: /workspace/eval/results.xml ----------------\n========================= 7 passed, 1 skipped in 0.58s =========================\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    },
+    {
+      "step": "check_results_xml",
+      "command": "test -s eval/results.xml",
+      "wall_time": 0.12266640807501972,
+      "output": "",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    },
+    {
+      "step": "results_read",
+      "command": "docker cp 3b2dbef9772d7d49a4cc1fcc64216c011651319be17cc4a24fc839dfb434da49:/workspace/eval/results.xml /tmp/tmprbyo9twm.xml",
+      "wall_time": 0.03165791789069772,
+      "output": "<?xml version=\"1.0\" encoding=\"utf-8\"?><testsuites name=\"pytest tests\"><testsuite name=\"pytest\" errors=\"0\" failures=\"0\" skipped=\"1\" tests=\"8\" time=\"0.579\" timestamp=\"2026-05-22T12:07:01.060438+00:00\" hostname=\"3b2dbef9772d\"><testcase classname=\"eval.tests.test_csview_io\" name=\"test_nonexistent_file_errors_to_stderr_exit_1\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview_io\" name=\"test_tsv_flag_uses_tab_delimiter_exact_output\" time=\"0.004\" /><testcase classname=\"eval.tests.test_csview_io\" name=\"test_help_prints_usage_to_stdout_and_exit_0\" time=\"0.006\" /><testcase classname=\"eval.tests.test_csview_io\" name=\"test_file_input_matches_stdin_output\" time=\"0.010\" /><testcase classname=\"eval.tests.test_csview_io\" name=\"test_unreadable_file_permission_denied_exit_1\" time=\"0.000\"><skipped type=\"pytest.skip\" message=\"running as root; cannot reliably make file unreadable\">/workspace/eval/tests/test_csview_io.py:96: running as root; cannot reliably make file unreadable</skipped></testcase><testcase classname=\"eval.tests.test_csview_io\" name=\"test_number_flag_prepends_index_column_exact_output\" time=\"0.003\" /><testcase classname=\"eval.tests.test_csview_io\" name=\"test_no_headers_flag_removes_header_separator\" time=\"0.005\" /><testcase classname=\"eval.tests.test_csview_io\" name=\"test_stdin_default_reads_csv_and_ascii_style_output_exact\" time=\"0.004\" /></testsuite></testsuites>",
+      "returncode": 0,
+      "exception_info": "",
+      "branch": "b3b22ece5568"
+    }
+  ],
+  "solution_branch": "submission",
+  "test_branches": [
+    "a7a2f5f083bf",
+    "d31025219260",
+    "65af426d9fb3",
+    "efa8c407dbe3",
+    "9ec117cda36f",
+    "b3b22ece5568",
+    "5f4759b87816"
+  ],
+  "test_branch_errors": {},
+  "executable_hash": "6f675649d7c42dc57c04d45d27124047b888a7a59bbade14ba4264fbcde56928",
+  "warnings": []
+}

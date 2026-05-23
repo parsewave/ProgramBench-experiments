@@ -1,0 +1,13 @@
+{
+  "task_id": "blake3-team__blake3.15e83a5",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 5720,
+  "exit_code": 0,
+  "start_ts": 1779449461,
+  "end_ts": 1779455181,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}

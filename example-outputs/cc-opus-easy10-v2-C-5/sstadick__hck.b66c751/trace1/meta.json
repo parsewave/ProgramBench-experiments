@@ -1,0 +1,13 @@
+{
+  "task_id": "sstadick__hck.b66c751",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 4281,
+  "exit_code": 0,
+  "start_ts": 1779506985,
+  "end_ts": 1779511266,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}
