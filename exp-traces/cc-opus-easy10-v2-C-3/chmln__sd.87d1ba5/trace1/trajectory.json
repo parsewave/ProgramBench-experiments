@@ -2,7 +2,7 @@
   "info": {
     "source": "claude-code-stream-json",
     "converter": "convert_trajectory.py (lossy)",
-    "input_file": "/tmp/cc-runs/cc-opus-fwc-v3-3-easy10-20260522-110218/chmln__sd.87d1ba5/trace1/trajectory.jsonl",
+    "input_file": "trajectory.jsonl",
     "init": {
       "model": "claude-opus-4-7",
       "session_id": "b980fa56-6820-466f-a3dc-ecfe1cdd6e0b",

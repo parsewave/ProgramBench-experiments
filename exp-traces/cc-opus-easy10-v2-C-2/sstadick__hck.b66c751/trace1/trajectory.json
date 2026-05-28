@@ -2,7 +2,7 @@
   "info": {
     "source": "claude-code-stream-json",
     "converter": "convert_trajectory.py (lossy)",
-    "input_file": "/tmp/cc-runs/cv32-v2c-20260522-1130/sstadick__hck.b66c751/trace1/trajectory.jsonl",
+    "input_file": "trajectory.jsonl",
     "init": {
       "model": "claude-opus-4-7",
       "session_id": "dbe56b59-a39f-4861-b544-529fdeece3f6",

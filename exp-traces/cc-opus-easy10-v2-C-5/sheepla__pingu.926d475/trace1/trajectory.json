@@ -2,7 +2,7 @@
   "info": {
     "source": "claude-code-stream-json",
     "converter": "convert_trajectory.py (lossy)",
-    "input_file": "/tmp/cc-runs/cc-opus-fwc-easy10-v2-C-5-20260523-032120/sheepla__pingu.926d475/trace1/trajectory.jsonl",
+    "input_file": "trajectory.jsonl",
     "init": {
       "model": "claude-opus-4-7",
       "session_id": "7ae89a08-ecbf-4db9-a95f-df03cddec555",
@@ -1945,7 +1945,7 @@
         {
           "tool_use_id": "toolu_01CZgXUCmRKycAWRKFyUqfZW",
           "type": "tool_result",
-          "content": "GOPATH= GOROOT=\ntotal 40\ndrwxr-x--- 1 agent agent 4096 May 23 05:23 .\ndrwxr-xr-x 1 root  root  4096 May 23 05:23 ..\n-rw-r--r-- 1 agent agent  220 Jan  6  2022 .bash_logout\n-rw-r--r-- 1 agent agent 3771 Jan  6  2022 .bashrc\ndrwxrwxr-x 8 agent agent 4096 May 23 05:23 .claude\n-rw------- 1 agent agent   57 May 23 05:23 .claude-custom\n-rw-rw-r-- 1 agent agent  385 May 23 05:23 .claude.json\ndrwxr-xr-x 4 agent agent 4096 May 23 05:23 .local\n-rw-r--r-- 1 agent agent  807 Jan  6  2022 .profile\ntotal 32\ndrwxr-xr-x 1 root root 4096 Apr 17 19:59 .\ndrwxr-xr-x 1 root root 4096 May 23 05:23 ..\n-rw-r--r-- 1 root root 3131 Apr 17 16:31 .bashrc\ndrwxr-xr-x 1 root root 4096 Apr 17 19:59 .cache\ndrwxr-xr-x 3 root root 4096 Apr 17 19:59 .config\n-rw-r--r-- 1 root root   82 Apr 17 16:31 .gitconfig\n-rw-r--r-- 1 root root  186 Apr 17 16:31 .profile\ndrwxr-xr-x 3 root root 4096 Apr 17 19:59 go",
+          "content": "GOPATH= GOROOT=\ntotal 40\ndrwxr-x--- 1 agent agent 4096 May 23 05:23 .\ndrwxr-xr-x 1 root  root  4096 May 23 05:23 ..\n-rw-r--r-- 1 agent agent  220 Jan  6  2022 .bash_logout\n-rw-r--r-- 1 agent agent 3771 Jan  6  2022 .bashrc\ndrwxrwxr-x 8 agent agent 4096 May 23 05:23 .claude\n-rw------- 1 agent agent   57 May 23 05:23 .local-session\n-rw-rw-r-- 1 agent agent  385 May 23 05:23 .claude.json\ndrwxr-xr-x 4 agent agent 4096 May 23 05:23 .local\n-rw-r--r-- 1 agent agent  807 Jan  6  2022 .profile\ntotal 32\ndrwxr-xr-x 1 root root 4096 Apr 17 19:59 .\ndrwxr-xr-x 1 root root 4096 May 23 05:23 ..\n-rw-r--r-- 1 root root 3131 Apr 17 16:31 .bashrc\ndrwxr-xr-x 1 root root 4096 Apr 17 19:59 .cache\ndrwxr-xr-x 3 root root 4096 Apr 17 19:59 .config\n-rw-r--r-- 1 root root   82 Apr 17 16:31 .gitconfig\n-rw-r--r-- 1 root root  186 Apr 17 16:31 .profile\ndrwxr-xr-x 3 root root 4096 Apr 17 19:59 go",
           "is_error": false
         }
       ]

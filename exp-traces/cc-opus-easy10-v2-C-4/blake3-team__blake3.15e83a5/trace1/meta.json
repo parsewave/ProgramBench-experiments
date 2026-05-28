@@ -8,6 +8,5 @@
   "exit_code": 0,
   "start_ts": 1779923335,
   "end_ts": 1779925894,
-  "container_run": true,
-  "proxy": "5.161.102.175:8080"
+  "container_run": true
 }

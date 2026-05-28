@@ -8,6 +8,5 @@
   "exit_code": 0,
   "start_ts": 1779457749,
   "end_ts": 1779463442,
-  "container_run": true,
-  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+  "container_run": true
 }
