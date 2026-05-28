@@ -1,0 +1,3509 @@
+{
+  "test_results": [
+    {
+      "name": "tests.test_basic.test_help_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_basic.test_help_flag_short",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_basic.test_invalid_url_format",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_basic.test_no_arguments",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_basic.test_too_many_arguments",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_basic.test_version_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_color.test_color_always",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_color.test_color_auto_default",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_color.test_color_auto_explicit",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_color.test_color_never",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_empty_page",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_https_url",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_localhost_url",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_negative_timeout",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_non_html_root_page",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_url_with_fragment",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_url_with_query_parameters",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_very_large_buffer_size",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.test_zero_redirections",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_buffer_size_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_custom_header",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_dns_resolver_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_invalid_header_format",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_max_connections_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_max_connections_per_host_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_max_redirections_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_max_response_body_size_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_max_retries_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_multiple_custom_headers",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_rate_limit_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_skip_tls_verification_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_timeout_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_options.test_timeout_short_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_broken_link_detection",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_img_tag_checking",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_link_tag_checking",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_one_page_only_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_recursive_crawling",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_redirect_following",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_script_tag_checking",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_valid_url_success",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_deprecated_json_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_deprecated_junit_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_experimental_verbose_json",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_format",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_format_valid_structure",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_format",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_default",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_explicit",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_verbose_and_junit_conflict",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_verbose_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_verbose_long_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_verbose_with_json",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_robots_sitemap.test_follow_robots_txt_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_robots_sitemap.test_follow_sitemap_xml_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_robots_sitemap.test_without_robots_txt",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.test_custom_accepted_status_codes_individual",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.test_custom_accepted_status_codes_mixed",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.test_custom_accepted_status_codes_range",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.test_default_accepted_status_codes",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.test_unaccepted_status_code_rejection",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_exclude_pattern",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_ignore_fragments_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_ignore_fragments_short_flag",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_include_pattern",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_invalid_exclude_regex",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_invalid_include_regex",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_multiple_exclude_patterns",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.test_multiple_include_patterns",
+      "branch": "c248a8a914eb",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_basic_invocation.test_help_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_basic_invocation.test_help_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_basic_invocation.test_invalid_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_basic_invocation.test_invalid_url_format",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_basic_invocation.test_no_arguments",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_basic_invocation.test_version_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_buffer_size_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_buffer_size_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_dns_resolver_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_invalid_max_connections",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_connections_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_connections_per_host",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_connections_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_redirections_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_redirections_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_response_body_size",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_max_retries_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_negative_timeout",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_proxy_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_rate_limit_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_skip_tls_verification",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_timeout_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_connection_options.test_timeout_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_format_flag_json",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_format_flag_junit",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_format_flag_text",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_invalid_format",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_json_flag_deprecated",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_junit_flag_deprecated",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_text_format_default",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_output_formats.test_verbose_flag_with_text",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_color_always",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_color_auto",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_color_invalid_value",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_color_never",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_follow_robots_txt_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_follow_sitemap_xml_deprecated",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_header_flag_invalid_format",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_header_flag_multiple",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_header_flag_single",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_special_features.test_one_page_only_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_404_only",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_default",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_invalid_format",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_invalid_range",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_mixed",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_multiple",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_range",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_status_codes.test_accepted_status_codes_single",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_exclude_and_include_together",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_exclude_flag_single",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_exclude_multiple_patterns",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_exclude_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_ignore_fragments_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_ignore_fragments_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_include_flag_single",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_include_multiple_patterns",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_include_short_flag",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_url_filtering.test_invalid_regex_pattern",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_accepted_status_codes_404",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_broken_link_detection",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_color_always",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_color_never_no_ansi",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_custom_header",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_exclude_pattern",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_follow_robots_txt",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_ignore_fragments",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_include_pattern",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_json_output_success",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_junit_xml_output_success",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_max_connections_limit",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_max_redirections",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_one_page_only",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_successful_check",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_timeout_option",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_with_server.test_verbose_output",
+      "branch": "34ab4782d13e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_multiple_patterns_logical_or",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_pattern_case_sensitive",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_pattern_matches_full_url_not_just_path",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_pattern_matches_url_with_port",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_pattern_with_anchors",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_pattern_with_query_parameters",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_regex_pattern_with_character_classes",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_exclude_single_pattern_filters_matching_urls",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_include_and_exclude_combination_exclude_precedence",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_include_multiple_patterns_logical_or",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_include_pattern_empty_means_all_included",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_include_single_pattern_whitelist_mode",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_include_with_complex_regex_character_class",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_invalid_regex_pattern_error",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_multiple_exclude_patterns_all_applied",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_one_page_only_prevents_recursive_crawling",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_filtering.test_scheme_filtering_non_http_schemes_ignored",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_accepted_status_codes_range_parsing",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_accepted_status_codes_single_code",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_buffer_size_flag_accepted",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_combined_flags_timeout_status_redirects",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_custom_headers_passed_to_requests",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_default_status_codes_reject_404",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_ignore_fragments_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_invalid_header_format_no_colon",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_invalid_status_code_nonnumeric",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_invalid_status_code_range_syntax",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_max_connections_flag_accepted",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_max_connections_per_host_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_max_redirections_exceeded",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_mixed_status_codes_in_page",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_multiple_non_contiguous_ranges",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_one_page_only_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_rate_limit_flag_accepted",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_redirect_307_temporary",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_redirect_308_permanent",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_redirect_chain_follows_correctly",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_redirect_loop_detection",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_redirect_without_location_header",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_relative_redirect_resolution",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_single_status_code_418_teapot",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_status_code_range_boundaries",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_timeout_on_slow_response",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_very_short_timeout_with_quick_pages",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_http_features.test_zero_redirects_allowed",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_accepted_status_codes_range_and_individual",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_broken_links_json_output_structure",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_broken_links_nonzero_exit_and_reports_404s",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_connection_refused_error_handling",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_cyclic_link_graph_handling",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_data_url_scheme_skipped",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_deprecated_json_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_empty_page_no_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_exclude_pattern_filters_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_external_links_checked_not_crawled",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_html_base_tag_url_resolution",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_iframe_and_source_tag_extraction",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_include_pattern_restricts_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_json_verbose_includes_successful_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_junit_xml_output_format",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_malformed_url_error_reporting",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_meta_tag_link_extraction",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_multiple_exclude_patterns",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_one_page_only_flag_prevents_crawling",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_preconnect_dns_prefetch_skipped",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_recursive_crawling_follows_internal_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_relative_url_resolution",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_root_page_404_error_handling",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_single_page_all_links_valid",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_srcset_attribute_parsing",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.test_url_fragments_checked_by_default",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_color_always_includes_ansi_codes",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_color_auto_mode_no_tty",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_color_never_removes_ansi_codes",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_deprecated_experimental_verbose_json_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_deprecated_json_flag_works",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_deprecated_junit_flag_works",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_format_validation_rejects_invalid_format",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_empty_links_array_structure",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_error_is_string",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_format_all_success_empty_array",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_format_all_success_verbose_shows_page",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_format_structure_errors_only",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_format_verbose_includes_successful_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_links_array_order_irrelevant_but_complete",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_status_is_int_not_string",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_json_url_field_is_string_not_object",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_multiple_pages_separate_testsuites",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_testcase_classname_is_source_page",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_testcase_name_is_link_url",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_with_verbose_flag_rejected",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_xml_counts_match_actual_testcases",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_xml_format_structure",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_xml_header_present",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_xml_skipped_attribute_always_zero",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_junit_xml_testcase_order_irrelevant_but_complete",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_multipage_json_format_array_of_pages",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_multipage_junit_xml_multiple_testsuites",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_multipage_text_format_shows_multiple_page_results",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_multipage_verbose_includes_all_pages",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_all_success_no_output",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_all_success_verbose_shows_results",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_explicit",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_shows_only_errors_by_default",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_format_verbose_shows_successful_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_text_output_sorted_alphabetically",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.test_verbose_json_and_verbose_flag_interaction",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_empty_sitemap_blocks_all_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_malformed_sitemap_xml_produces_parse_error",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_robots_txt_blocks_disallowed_paths",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_robots_txt_missing_file_fails",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_robots_txt_user_agent_specific_rules",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_robots_txt_with_allow_before_disallow",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_robots_txt_with_wildcard_patterns",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_404_error",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_and_robots_txt_both_applied",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_filters_links_not_in_sitemap",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_index_not_supported_filters_all",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_only_checks_listed_urls",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_url_encoding_handled",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_with_duplicate_urls",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_sitemap_with_nonexistent_sitemap_xml_fails",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_sitemap_robots.test_without_sitemap_follows_all_links",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_smoke.test_help_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_smoke.test_no_arguments_error",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_smoke.test_version_flag",
+      "branch": "d6003e5f008b",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_bool_flag_cannot_take_value",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_choice_validation_for_format[args0]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_choice_validation_for_format[args1]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_color_choice_validation",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_combined_short_flags_vv_is_accepted_as_repeated_verbose",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_deprecated_json_sets_format_json_and_allows_verbose_json",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_deprecated_junit_sets_format_junit",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_double_dash_stops_flag_parsing_and_treats_next_arg_as_url",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_flag_value_assignment_forms_are_accepted[args0]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_flag_value_assignment_forms_are_accepted[args1]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_flag_value_assignment_forms_are_accepted[args2]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_flag_value_assignment_forms_are_accepted[args3]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_header_validation_requires_colon",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_mutually_exclusive_verbose_with_junit_format_errors",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_numeric_type_validation[args0-needles0]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_numeric_type_validation[args1-needles1]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_numeric_type_validation[args2-needles2]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_numeric_type_validation[args3-needles3]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_positional_url_required_and_exactly_one[args0-needles0]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_positional_url_required_and_exactly_one[args1-needles1]",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_regex_validation_for_exclude_and_include",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_argparse_validation.test_unknown_flag_rejected",
+      "branch": "dda39182dfd1",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_baseline_help_output_matches_fixture",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_dash_h_and_dash_dash_help_match_exactly",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_executable_exists_and_is_executable",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[(e.g. '200..300,403')]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Accepted HTTP response status codes]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Color output (default: auto)]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Exclude URLs matched with given]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Follow robots.txt]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Include URLs matched with given]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Output format (default: text)]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Show this help]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Show version]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[Skip TLS certificate verification]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_contains_descriptive_snippets[sitemap.xml (deprecated)]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--accepted-status-codes]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--color=[auto|always|never]]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--dns-resolver]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--experimental-verbose-json]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--follow-robots-txt]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--follow-sitemap-xml]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--format=[text|json|junit]]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--header]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--json]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--junit]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--max-connections-per-host]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--max-response-body-size]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--max-retries]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--one-page-only]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--proxy]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--rate-limit]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--skip-tls-verification]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[--version]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-b, --buffer-size]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-c, --max-connections]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-e, --exclude]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-f, --ignore-fragments]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-h, --help]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-i, --include]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-r, --max-redirections]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-t, --timeout]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_documents_flag[-v, --verbose]",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_does_not_end_with_newline",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_exit_code_zero",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_goes_to_stdout_not_stderr",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_application_options_section",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_has_usage_header",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_takes_precedence_over_invalid_extra_args",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_help_with_other_flags_still_shows_help",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_no_ansi_color_codes_in_help_by_default",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_help_output.test_usage_line_mentions_options_and_url",
+      "branch": "7d315c385f27",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_help_goes_to_stdout_exit0",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_invalid_format_value_is_error_on_stderr_exit1",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_missing_required_url_is_error_on_stderr_exit1",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_cli_basics.test_version_stdout_exit0",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_http_outputs.test_json_output_non_verbose_only_includes_failures",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_http_outputs.test_json_output_verbose_includes_success_and_failure_entries",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_http_outputs.test_junit_output_contains_testsuite_and_failure_and_has_xml_header",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_http_outputs.test_text_output_default_shows_only_failures_and_exit1",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "eval.tests.test_http_outputs.test_verbose_text_output_includes_successes",
+      "branch": "d1d38bb04b2e",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestArgumentValidation.test_invalid_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestArgumentValidation.test_invalid_regex_exclude",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestArgumentValidation.test_invalid_regex_include",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestArgumentValidation.test_invalid_status_code_format",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestArgumentValidation.test_no_arguments",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestArgumentValidation.test_verbose_with_junit_format_conflict",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestBasicExecution.test_invalid_url_format",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestBasicExecution.test_nonexistent_host",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestHelpAndVersion.test_help_long_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestHelpAndVersion.test_help_matches_expected",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestHelpAndVersion.test_help_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_cli_basic.TestHelpAndVersion.test_version_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestCircularReferences.test_circular_link_reference",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestCircularReferences.test_self_reference",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestEmptyAndMalformedContent.test_empty_html_page",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestEmptyAndMalformedContent.test_malformed_html",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestEmptyAndMalformedContent.test_page_with_only_text",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestMultipleLinksToSamePage.test_multiple_links_to_same_broken_page",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestMultipleLinksToSamePage.test_multiple_links_to_same_valid_page",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestRecursiveCrawling.test_deep_link_hierarchy",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestRecursiveCrawling.test_one_page_only_stops_recursion",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestSpecialCharactersInURLs.test_url_with_encoded_characters",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestSpecialCharactersInURLs.test_url_with_query_params",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestSpecialURLTypes.test_data_urls_ignored",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestSpecialURLTypes.test_javascript_links_ignored",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestSpecialURLTypes.test_mailto_links_ignored",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_edge_cases.TestSpecialURLTypes.test_tel_links_ignored",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestBasicLinkChecking.test_one_page_only_mode",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestBasicLinkChecking.test_page_with_broken_link",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestBasicLinkChecking.test_valid_page_with_no_links",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestBasicLinkChecking.test_valid_page_with_valid_internal_link",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestBasicLinkChecking.test_verbose_output",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestImageAndResourceLinks.test_img_tag_src",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestImageAndResourceLinks.test_link_tag_href",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestImageAndResourceLinks.test_script_tag_src",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestRelativeAndAbsoluteLinks.test_absolute_path_link",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_link_checking.TestRelativeAndAbsoluteLinks.test_relative_link",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestConnectionSettings.test_buffer_size",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestConnectionSettings.test_buffer_size_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestConnectionSettings.test_max_connections_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestConnectionSettings.test_max_connections_per_host",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestConnectionSettings.test_max_connections_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestConnectionSettings.test_max_response_body_size",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestCustomHeaders.test_custom_header_multiple",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestCustomHeaders.test_custom_header_single",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestRateLimit.test_rate_limit_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestRedirections.test_max_redirections_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestRedirections.test_max_redirections_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestTLSSettings.test_skip_tls_verification",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestTimeoutAndRetry.test_max_retries",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestTimeoutAndRetry.test_timeout_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_network_settings.TestTimeoutAndRetry.test_timeout_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestColorOutput.test_color_always",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestColorOutput.test_color_auto",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestColorOutput.test_color_never",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestJSONOutput.test_deprecated_json_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestJSONOutput.test_json_format",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestJSONOutput.test_json_format_with_success",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestJUnitOutput.test_deprecated_junit_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestJUnitOutput.test_junit_format",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestJUnitOutput.test_junit_format_with_success",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestTextOutput.test_default_text_format",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_output_formats.TestTextOutput.test_text_format_explicit",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.TestStatusCodeHandling.test_200_ok_response",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.TestStatusCodeHandling.test_404_not_found_rejected_by_default",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.TestStatusCodeHandling.test_custom_accepted_status_codes_range",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.TestStatusCodeHandling.test_custom_accepted_status_codes_rejects_others",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.TestStatusCodeHandling.test_custom_accepted_status_codes_single",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_status_codes.TestStatusCodeHandling.test_multiple_status_code_ranges",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestCombinedFiltering.test_include_and_exclude_together",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestExcludePatterns.test_exclude_multiple_patterns",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestExcludePatterns.test_exclude_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestExcludePatterns.test_exclude_single_pattern",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestExcludePatterns.test_exclude_with_regex",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestFragmentHandling.test_fragments_checked_by_default",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestFragmentHandling.test_fragments_with_valid_id",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestFragmentHandling.test_ignore_fragments_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestFragmentHandling.test_ignore_fragments_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestIncludePatterns.test_include_short_flag",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    },
+    {
+      "name": "tests.test_url_filtering.TestIncludePatterns.test_include_single_pattern",
+      "branch": "5768cb448c7d",
+      "status": "not_run",
+      "extra": {
+        "error_code": "compile_failed"
+      }
+    }
+  ],
+  "error_code": "compile_failed",
+  "error_details": "chmod: cannot access './compile.sh': No such file or directory",
+  "log": [
+    {
+      "step": "wipe_workspace",
+      "command": "rm -rf /workspace/* /workspace/.[!.]*",
+      "wall_time": 0.13917450094595551,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "remove_hashed_files",
+      "command": "find /workspace -type f -exec sha256sum {} + 2>/dev/null | grep -E \"^(b2ca782ea836ea8f2d23404598c6a4ceb42ea631e2a3e020ca7ca09a0a974919)  \" | cut -c67- | xargs -I% rm -fv %",
+      "wall_time": 0.11962878797203302,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "seed_git",
+      "command": "if [ ! -d .git ]; then GIT_AUTHOR_DATE='2000-01-01T00:00:00Z' GIT_COMMITTER_DATE='2000-01-01T00:00:00Z' git -c init.defaultBranch=gold init -q && git -c user.email=gold@local -c user.name=gold -c commit.gpgsign=false add -A && GIT_AUTHOR_DATE='2000-01-01T00:00:00Z' GIT_COMMITTER_DATE='2000-01-01T00:00:00Z' git -c user.email=gold@local -c user.name=gold -c commit.gpgsign=false commit -q --allow-empty -m gold; fi",
+      "wall_time": 0.1472150159534067,
+      "output": "",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    {
+      "step": "compile",
+      "command": "chmod +x ./compile.sh && ./compile.sh",
+      "wall_time": 0.13005102600436658,
+      "output": "chmod: cannot access './compile.sh': No such file or directory\n",
+      "returncode": 1,
+      "exception_info": ""
+    }
+  ],
+  "solution_branch": "submission",
+  "test_branches": [
+    "c248a8a914eb",
+    "34ab4782d13e",
+    "d6003e5f008b",
+    "dda39182dfd1",
+    "7d315c385f27",
+    "d1d38bb04b2e",
+    "5768cb448c7d"
+  ],
+  "test_branch_errors": {},
+  "executable_hash": null,
+  "warnings": []
+}

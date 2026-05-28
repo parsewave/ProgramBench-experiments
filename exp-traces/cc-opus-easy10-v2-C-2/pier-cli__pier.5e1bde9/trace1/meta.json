@@ -1,0 +1,13 @@
+{
+  "task_id": "pier-cli__pier.5e1bde9",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 4812,
+  "exit_code": 0,
+  "start_ts": 1779453482,
+  "end_ts": 1779458294,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}

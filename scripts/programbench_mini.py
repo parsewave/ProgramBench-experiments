@@ -1,11 +1,3 @@
-"""Run mini-SWE-agent on ProgramBench instances via Claude Code OAuth.
-
-Equivalent in behavior to upstream `mini-extra programbench` (bash-only tool
-surface, no snapshots, no compaction, no extra plumbing) — the only delta is
-that the model class is swapped out for `AnthropicOAuthModel` so a Claude Code
-subscription token can be used instead of a metered Anthropic API key.
-"""
-
 import concurrent.futures
 import logging
 import shutil
@@ -29,13 +21,13 @@ from minisweagent.run.benchmarks.utils.batch_progress import RunBatchProgressMan
 
 WORK_CWD = "/work"
 BINARY_PATH = "/workspace/executable"
+DOCTRINE_PATH = SCRIPTS_DIR.parent / "opus-experiment" / "CLAUDE.md"
 
 logger = logging.getLogger(__name__)
 
 app = typer.Typer(rich_markup_mode="rich", add_completion=False)
 
-# Paper §A.2.3 (Figure 14). ProgramBench system prompt verbatim — do not reflow.
-SYSTEM_PROMPT = """You are a helpful assistant that can interact with a computer.
+PAPER_SYSTEM_PROMPT = """You are a helpful assistant that can interact with a computer.
 
 This is a reverse-engineering benchmark. You are given a compiled binary and its documentation.
 Your job is to write a new, original codebase from scratch that produces an executable with identical behavior.
@@ -125,6 +117,14 @@ as your sole bash command for that turn. After this command you cannot continue.
 _ENV_VARS = {"PAGER": "cat", "MANPAGER": "cat", "LESS": "-R", "PIP_PROGRESS_BAR": "off", "TQDM_DISABLE": "1"}
 
 
+def _build_system_prompt(doctrine: bool) -> str:
+    if not doctrine:
+        return PAPER_SYSTEM_PROMPT
+    if not DOCTRINE_PATH.exists():
+        raise FileNotFoundError(f"doctrine file not found: {DOCTRINE_PATH}")
+    return PAPER_SYSTEM_PROMPT + "\n\n---\n\n" + DOCTRINE_PATH.read_text()
+
+
 def _docker_pull(image: str) -> None:
     r = subprocess.run(["docker", "pull", image], capture_output=True, text=True, timeout=600)
     if r.returncode != 0:
@@ -146,7 +146,6 @@ def _make_env(instance_id: str, *, cmd_timeout: int):
 
 
 def _extract_submission(env, out_dir: Path) -> Path:
-    """Pull /work/ out of the container and tarball it as submission.tar.gz."""
     work_host = out_dir / "work"
     if work_host.exists():
         shutil.rmtree(work_host)
@@ -157,8 +156,6 @@ def _extract_submission(env, out_dir: Path) -> Path:
     )
     if r.returncode != 0:
         raise RuntimeError(f"docker cp failed: {r.stderr or r.stdout}")
-    # programbench eval rebuilds via compile.sh, so the agent's compiled binary
-    # is extraneous in the submission tar.
     (work_host / "executable").unlink(missing_ok=True)
     sub = out_dir / "submission.tar.gz"
     r = subprocess.run(["tar", "-czf", str(sub), "-C", str(work_host), "."], capture_output=True, text=True, timeout=60)
@@ -168,8 +165,6 @@ def _extract_submission(env, out_dir: Path) -> Path:
 
 
 class _ProgressAgent(DefaultAgent):
-    """DefaultAgent that emits per-step status updates to the batch progress UI."""
-
     def __init__(self, *args, progress: RunBatchProgressManager | None, instance_id: str, **kwargs):
         super().__init__(*args, **kwargs)
         self._progress = progress
@@ -184,6 +179,7 @@ class _ProgressAgent(DefaultAgent):
 def _run_instance(
     instance_id: str, output_dir: Path, model: str,
     step_limit: int, cost_limit: float, cmd_timeout: int,
+    system_prompt: str,
     progress: RunBatchProgressManager | None,
 ):
     out_dir = output_dir / instance_id
@@ -205,7 +201,7 @@ def _run_instance(
     agent = _ProgressAgent(
         AnthropicOAuthModel(model_name=model), env,
         progress=progress, instance_id=instance_id,
-        system_template=SYSTEM_PROMPT, instance_template=INSTANCE_PROMPT,
+        system_template=system_prompt, instance_template=INSTANCE_PROMPT,
         step_limit=step_limit, cost_limit=cost_limit, output_path=traj_path,
     )
 
@@ -243,26 +239,16 @@ def _run_instance(
 
 @app.command()
 def main(
-    output_dir: Path = typer.Option(..., "-o", "--output-dir", help="Parent dir for output/<instance>/{trajectory.json, submission.tar.gz, work/}"),
-    config: Path = typer.Option(None, "-c", "--config", help="YAML config file with instance_ids list (and optional overrides)"),
-    model: str = typer.Option(None, "-m", "--model", help="Anthropic model id (default: claude-opus-4-7)"),
-    instance_id: str = typer.Option(None, "--instance-id", help="Single instance to run (alternative to --config)"),
-    workers: int = typer.Option(1, "-w", "--workers", help="Parallel workers (>1 enables batch mode with progress UI)"),
-    step_limit: int = typer.Option(1000, "--step-limit", help="Max agent turns (paper §3 = 1000)"),
-    cost_limit: float = typer.Option(0.0, "--cost-limit", help="Stop after $X cumulative cost; 0 = no limit"),
-    cmd_timeout: int = typer.Option(120, "--cmd-timeout", help="Per-bash-command timeout (seconds)"),
+    output_dir: Path = typer.Option(..., "-o", "--output-dir"),
+    config: Path = typer.Option(None, "-c", "--config"),
+    model: str = typer.Option(None, "-m", "--model"),
+    instance_id: str = typer.Option(None, "--instance-id"),
+    workers: int = typer.Option(1, "-w", "--workers"),
+    step_limit: int = typer.Option(1000, "--step-limit"),
+    cost_limit: float = typer.Option(0.0, "--cost-limit"),
+    cmd_timeout: int = typer.Option(120, "--cmd-timeout"),
+    doctrine: bool = typer.Option(True, "--doctrine/--no-doctrine"),
 ):
-    """Run ProgramBench rollouts (single instance or batch).
-
-    Config YAML example::
-
-        model: claude-opus-4-7
-        instance_ids:
-          - abishekvashok__cmatrix.5c082c6
-          - chmln__sd.87d1ba5
-
-    CLI flags override config values.
-    """
     if instance_id and config:
         raise typer.BadParameter("Pass --instance-id or --config, not both.")
 
@@ -278,11 +264,12 @@ def main(
         raise typer.BadParameter("Provide --instance-id, --config, or a config with instance_ids.")
 
     model = model or cfg.get("model") or "claude-opus-4-7"
+    system_prompt = _build_system_prompt(doctrine=doctrine)
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if len(ids) == 1 and workers <= 1:
-        _run_instance(ids[0], output_dir, model, step_limit, cost_limit, cmd_timeout, progress=None)
+        _run_instance(ids[0], output_dir, model, step_limit, cost_limit, cmd_timeout, system_prompt, progress=None)
         return
 
     progress = RunBatchProgressManager(len(ids), output_dir / f"exit_statuses_{time.time()}.yaml")
@@ -291,7 +278,7 @@ def main(
             futures = {
                 executor.submit(
                     _run_instance, iid, output_dir, model,
-                    step_limit, cost_limit, cmd_timeout, progress,
+                    step_limit, cost_limit, cmd_timeout, system_prompt, progress,
                 ): iid
                 for iid in ids
             }

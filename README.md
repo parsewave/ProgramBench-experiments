@@ -3,22 +3,66 @@
 <p align="center"><em>Parsewave experiments on the ProgramBench reverse-engineering benchmark.</em></p>
 
 <p align="center">
-A fork of <a href="https://github.com/facebookresearch/programbench">facebookresearch/programbench</a> with our agent harness, prompts, and rollout traces overlaid. Upstream README continues below.
+A fork of <a href="https://github.com/facebookresearch/programbench">facebookresearch/programbench</a> with our agent doctrine and rollout traces overlaid. Upstream README continues below.
 </p>
 
 ## Experiment results
 
-The headline experiment in this repo is a **best-of-5 evaluation of Claude Opus 4.7 on the easy-10 ProgramBench subset**, using the framework-C reverse-engineering doctrine.
+The headline experiment in this repo is a **mean-of-5 evaluation of Claude Opus 4.7 (max effort) on the easy-10 ProgramBench subset**, using a clean-room reverse-engineering doctrine.
 
-- **Scoreboard + methodology:** [`example-outputs/README-best-of-5.md`](example-outputs/README-best-of-5.md)
-- **Per-rollout traces** (10 tasks × 5 rollouts = 50 task-traces): under [`example-outputs/cc-opus-easy10-v2-C-{1..5}/`](example-outputs/), each task dir has the full `trajectory.jsonl`, `submission.tar.gz`, and `eval.json`.
-- **Harness:** [`opus-experiment/harness/`](opus-experiment/harness/) (container-CC architecture, single-task and batch launchers, eval monitor).
-- **Doctrines:** [`opus-experiment/claude-configs/`](opus-experiment/claude-configs/) (`framework-A/B/C/D`; `framework-C` is the one used for the headline rollouts).
-- **Standalone runner (alternative path):** [`scripts/programbench_mini.py`](scripts/) wires mini-swe-agent's `DockerEnvironment` to Anthropic OAuth so you can run a single instance without the launchpad infra.
+- **Scoreboard + methodology:** [`exp-traces/README-best-of-5.md`](exp-traces/README-best-of-5.md)
+- **Per-rollout traces** (10 tasks × 5 rollouts = 50 task-traces): under [`exp-traces/cc-opus-easy10-v2-C-{1..5}/`](exp-traces/), each task dir has the full `trajectory.jsonl`, `submission.tar.gz`, and `eval.json`.
+- **Doctrine:** [`opus-experiment/CLAUDE.md`](opus-experiment/CLAUDE.md) — the clean-room RE prompt used for all rollouts.
+- **Charts:** [`exp-traces/figures/`](exp-traces/figures/) — per-task scores, leaderboard comparison, per-rollout variance.
 
-Best-of-5 headline: average pass rate **99**, with 2 confirmed full solves (`cmatrix`, `blake3` — both from the v2-C-1 rollout). See the scoreboard linked above for the per-task breakdown.
+**Headlines** (filtered pass rate per `programbench info`):
+- Mean across 5 rollouts × 10 tasks: **96.9** (vs **95.8** for Claude Opus 4.7-xhigh on the same 10 under mini-swe-agent, single rollout)
+- Beats the Opus 4.7-xhigh per-task mean on **8 of 10** tasks
+- Per-rollout aggregate band: 95.8 – 98.0
+- **2 confirmed full ✅ solves** across 50 task-rollouts, both on `cmatrix` (v2-C-1 and v2-C-4, both 508/508)
+- Best-of-5 aggregate: 98
 
-> Internal infra references (proxy IPs, hostnames, internal repo paths) in the trace data and harness have been redacted to placeholders like `<REDACTED_PROXY_IP_1>`. The architecture remains readable; the actual endpoints are not exposed.
+## Reproducing a single rollout
+
+Two paths. Both produce a `submission.tar.gz` you can score with `uv run programbench eval output/`.
+
+### A. Via Claude Code (matches our setup)
+
+Spawns a Claude Code session inside the task's `:task_cleanroom` container with `opus-experiment/CLAUDE.md` mounted as project instructions, runs non-interactively to completion, and tars the result.
+
+Prerequisites: docker; Node.js 20+; `npm install -g @anthropic-ai/claude-code`; an active local Claude Code session (run `claude` once on the host).
+
+```bash
+uv pip install programbench
+
+bash scripts/run_claude_code.sh abishekvashok__cmatrix.5c082c6 output/my-run
+
+uv run programbench eval output/my-run --branch-workers 4 --docker-cpus 4
+uv run programbench info output/my-run
+```
+
+The script bind-mounts the host's `node` binary, the host's `@anthropic-ai/claude-code` package, and `~/.claude` (your session credentials) into the task container, then runs `claude -p` with `--permission-mode bypassPermissions` and `--output-format stream-json`. The network sandbox is intentionally loose for the reproducer; the doctrine prompt prohibits source-finding and the agent is expected to comply.
+
+### B. Via mini-SWE-agent (uses your Claude Code session token, no Claude Code CLI required)
+
+A single-instance / batch runner that bridges [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent) to the access token from `~/.claude/.credentials.json`. See [`scripts/README.md`](scripts/README.md).
+
+```bash
+bash scripts/setup.sh
+
+export CLAUDE_CODE_OAUTH_TOKEN=$(python -c \
+  'import json,os; print(json.load(open(os.path.expanduser("~/.claude/.credentials.json")))["claudeAiOauth"]["accessToken"])')
+
+uv run python scripts/programbench_mini.py \
+  --instance-id abishekvashok__cmatrix.5c082c6 \
+  --output-dir output/my-run \
+  --model claude-opus-4-7
+
+uv run programbench eval output/my-run
+uv run programbench info output/my-run
+```
+
+`--doctrine` is on by default and appends `opus-experiment/CLAUDE.md` to the paper's anti-cheat system prompt; pass `--no-doctrine` for the plain paper baseline.
 
 ---
 

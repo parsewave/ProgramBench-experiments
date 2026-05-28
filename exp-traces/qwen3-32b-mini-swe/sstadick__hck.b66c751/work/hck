@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+
+'
+
+A command line tool for processing delimited text files.
+'
+
+import sys
+import argparse
+import re
+import csv
+from pathlib import Path
+import gzip
+import bz2
+import lzma
+import zipfile
+
+def detect_compression(file_path: str) -> str:
+# hck
+
+hck is a small command-line utility similar to cut(1) that splits input lines on a delimiter (the delimiter may be a regular expression) and outputs selected fields. It emphasizes simple, convenient operations such as reordering output fields and splitting on complex delimiters.
+
+This repository has been cleaned of implementation details. The information here focuses on what the program does and how to use it.
+
+## Summary
+
+- Split input lines on a delimiter (string or regex).
+- Select and reorder output fields (e.g. -f4,2,1).
+- Exclude fields by index or by header name.
+- Automatically decompress common compressed input files when supported on your system.
+- Output may be compressed.
+
+## Basic usage
+
+  hck [OPTIONS] [FILE...]
+
+Common options (user-facing):
+- -d <DELIM>    : use DELIM as the input delimiter (may be a regex)
+- -D <DELIM>    : use DELIM as the output record separator
+- -f <FIELDS>   : select fields by index (e.g. 1,3-5)
+- -e <FIELDS>   : exclude fields by index
+- -F <HEADER>   : select fields by header name (literal) or with -r use a regex
+- -r            : treat header selectors as regular expressions
+- -z / -Z       : read/write compressed input/output when supported
+
+## Examples
+
+Split on whitespace (default) and select fields 1-3 and 5:
+
+  hck -Ld' ' -f1-3,5 README.md | head -n4
+
+Reorder fields to PID, USER, %CPU:
+
+  ps aux | hck -D'___' -f2,1,3 | head -n4
+
+Select columns by header name or regex:
+
+  ps aux | hck -r -F '^ST.*' -F '^USER$' | head -n4
+
+Exclude specific fields by index:
+
+  ps aux | hck -e3,5 | head -n4
+
+## License
+
+This repository contains license files (e.g. LICENSE-MIT, UNLICENSE). See those files for license terms.
+

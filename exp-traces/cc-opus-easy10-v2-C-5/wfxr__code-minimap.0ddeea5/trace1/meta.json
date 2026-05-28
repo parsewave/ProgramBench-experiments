@@ -1,0 +1,13 @@
+{
+  "task_id": "wfxr__code-minimap.0ddeea5",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 2901,
+  "exit_code": 1,
+  "start_ts": 1779506490,
+  "end_ts": 1779509391,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}

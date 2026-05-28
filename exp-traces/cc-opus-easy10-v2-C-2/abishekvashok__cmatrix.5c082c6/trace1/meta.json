@@ -1,0 +1,13 @@
+{
+  "task_id": "abishekvashok__cmatrix.5c082c6",
+  "trace_id": "trace1",
+  "model": "claude-opus-4-7",
+  "max_turns": null,
+  "timeout_seconds": 14400,
+  "duration_seconds": 1357,
+  "exit_code": 0,
+  "start_ts": 1779449460,
+  "end_ts": 1779450817,
+  "container_run": true,
+  "proxy": "<REDACTED_PROXY_IP_2>:8080"
+}

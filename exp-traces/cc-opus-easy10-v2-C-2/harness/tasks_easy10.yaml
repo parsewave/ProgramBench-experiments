@@ -1,0 +1,15 @@
+# Full easy-10 task set for v3-2 (v2-C doctrine via --claude-config framework-C-v2c).
+model: claude-opus-4-7
+timeout_seconds: 14400
+traces_per_task: 1
+instance_ids:
+  - abishekvashok__cmatrix.5c082c6
+  - wfxr__csview.8ac4de0
+  - wfxr__code-minimap.0ddeea5
+  - blake3-team__blake3.15e83a5
+  - sitkevij__hex.61ae69b
+  - sstadick__hck.b66c751
+  - mgdm__htmlq.6e31bc8
+  - pier-cli__pier.5e1bde9
+  - sheepla__pingu.926d475
+  - chmln__sd.87d1ba5

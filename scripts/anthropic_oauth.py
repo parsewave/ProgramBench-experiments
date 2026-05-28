@@ -1,5 +1,3 @@
-"""mini-swe-agent model class that authenticates via Claude Code OAuth bearer token."""
-
 import json
 import logging
 import os
@@ -16,8 +14,8 @@ from minisweagent.models.utils.actions_toolcall import (
     parse_toolcall_actions,
 )
 from minisweagent.models.utils.openai_multimodal import expand_multimodal_content
+from minisweagent.models.utils.retry import retry
 
-# ~16K tokens at ~4 chars/token
 MAX_TOOL_OUTPUT_CHARS = 64_000
 TOOL_OUTPUT_TOO_LARGE_WARNING = (
     "[WARNING] Tool output too large (exceeded {n_chars} characters). "
@@ -26,7 +24,6 @@ TOOL_OUTPUT_TOO_LARGE_WARNING = (
     "for example, redirect to a file and inspect only the parts you need, "
     "or use head/tail/grep to limit the output."
 )
-from minisweagent.models.utils.retry import retry
 
 logger = logging.getLogger("anthropic_oauth_model")
 
@@ -47,7 +44,7 @@ class AnthropicOAuthModelConfig(BaseModel):
     multimodal_regex: str = ""
     max_tokens: int = 16384
     anthropic_version: str = "2023-06-01"
-    set_cache_control: Literal["default_end"] | None = None  # accepted+ignored — for compat with get_model defaults
+    set_cache_control: Literal["default_end"] | None = None
 
 
 class AnthropicOAuthAuthError(Exception):
@@ -59,14 +56,10 @@ class AnthropicOAuthAPIError(Exception):
 
 
 class AnthropicOAuthContextError(Exception):
-    """Non-retryable: prompt too long or request too large."""
     pass
 
 
 class _DictToObj:
-    """Duck-type wrapper so `parse_toolcall_actions` (which expects OpenAI-shape
-    `tc.function.name` / `tc.function.arguments`) accepts our reshaped tool calls."""
-
     def __init__(self, d: dict):
         self.id = d.get("id")
         self.function = _DictToObj(d["function"]) if isinstance(d.get("function"), dict) else None
@@ -83,7 +76,6 @@ def _flatten_content(content) -> str:
 
 
 def _to_anthropic_request(messages: list[dict]) -> tuple[str, list[dict]]:
-    """Convert OpenAI-shape messages -> (system_text, anthropic_messages)."""
     system_text = ""
     out: list[dict] = []
     for m in messages:
@@ -125,7 +117,6 @@ def _to_anthropic_request(messages: list[dict]) -> tuple[str, list[dict]]:
 
 
 def _from_anthropic_response(data: dict) -> dict:
-    """Convert an Anthropic Messages API response into OpenAI-shape dict."""
     text_parts = []
     tool_calls = []
     for block in data.get("content", []):
@@ -147,7 +138,6 @@ def _from_anthropic_response(data: dict) -> dict:
 
 
 def _bash_tool_anthropic() -> list[dict]:
-    """Single-tool surface in Anthropic's input_schema format (bash only)."""
     return [{
         "name": BASH_TOOL["function"]["name"],
         "description": BASH_TOOL["function"]["description"],
@@ -168,7 +158,6 @@ class AnthropicOAuthModel:
             )
         fallback_str = os.getenv("CLAUDE_CODE_OAUTH_TOKEN_FALLBACK", "").strip()
         fallbacks = [t for t in (t.strip() for t in fallback_str.split(",")) if t]
-        # _tokens[0] is always the active token; rotate on 401.
         self._tokens: list[str] = [primary] + fallbacks
         self._token_idx: int = 0
         self._token: str = primary
@@ -183,8 +172,6 @@ class AnthropicOAuthModel:
 
     def _query(self, messages: list[dict], **kwargs) -> dict:
         system_text, anthropic_messages = _to_anthropic_request(messages)
-        # OAuth requires the Claude Code identity as the FIRST system block; the task's
-        # actual system content goes in a second block.
         system_blocks = [{"type": "text", "text": CLAUDE_CODE_IDENTITY}]
         if system_text:
             system_blocks.append({"type": "text", "text": system_text})
@@ -197,13 +184,7 @@ class AnthropicOAuthModel:
             **(self.config.model_kwargs | kwargs),
         }
         try:
-            # LAUNCHPAD_INSECURE=1 skips TLS verification (e.g. corporate proxies
-            # with a self-signed CA). Also silences the InsecureRequestWarning.
-            verify = not bool(os.getenv("LAUNCHPAD_INSECURE"))
-            if not verify:
-                import urllib3
-                urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-            r = requests.post(ANTHROPIC_API_URL, headers=self._headers(), data=json.dumps(payload), timeout=180, verify=verify)
+            r = requests.post(ANTHROPIC_API_URL, headers=self._headers(), data=json.dumps(payload), timeout=180)
         except requests.exceptions.RequestException as e:
             raise AnthropicOAuthAPIError(f"Request failed: {e}") from e
         if r.status_code == 401:

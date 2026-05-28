@@ -1,49 +1,39 @@
 # scripts/
 
-A self-contained way to run ProgramBench tasks through the same agent harness
-the paper baselines use ([mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent),
-per paper §3 and `docs/README.md`), without needing a metered Anthropic API key.
-
-Behaviorally equivalent to upstream `mini-extra programbench` (bash-only tool
-surface, no extra plumbing) — the only delta is the model class, which is
-swapped out for `AnthropicOAuthModel` so a Claude Code subscription token can
-be used in place of a metered API key.
+Two ways to reproduce a single ProgramBench rollout against our doctrine.
 
 ## Files
 
-- **`setup.sh`** — one-shot bootstrap. Installs `uv` if missing, clones
-  `mini-swe-agent` next to this repo, and `uv pip install -e`'s it into
-  programbench's venv.
-- **`programbench_mini.py`** — runner. Pulls
-  `programbench/<inst>:task_cleanroom`, spawns a `--network none` container via
-  mini-swe-agent's `DockerEnvironment`, runs `DefaultAgent` with the **paper §A.2.3
-  system prompt verbatim**, and tarballs `/work/` into `submission.tar.gz` for
-  `programbench eval`. Supports `--instance-id` (single) or `--config` (batch).
-- **`anthropic_oauth.py`** — drop-in mini-swe-agent model class. Authenticates
-  with `$CLAUDE_CODE_OAUTH_TOKEN` (the `accessToken` from
-  `~/.claude/.credentials.json`), sends `Authorization: Bearer <token>` plus the
-  `anthropic-beta: oauth-2025-04-20` header, prepends the
-  `"You are Claude Code..."` identity system block (without it the OAuth-only
-  beta returns 429), and bridges Anthropic ↔ OpenAI message shapes so the rest
-  of mini-swe-agent's tool-call loop works unchanged.
+- `run_claude_code.sh` — spawns a non-interactive **Claude Code** session inside the task's `:task_cleanroom` container, with `opus-experiment/CLAUDE.md` mounted as project instructions. Tars `/work/` into `submission.tar.gz`. Matches our actual setup.
+- `programbench_mini.py` — bridges [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent) to the access token from your local Claude Code session. Single-instance or batch; runs `DefaultAgent` with the paper's anti-cheat system prompt + (by default) our doctrine appended.
+- `anthropic_oauth.py` — mini-SWE-agent model class that reads the access token from `~/.claude/.credentials.json` and talks to the Anthropic API directly.
+- `setup.sh` — one-shot bootstrap (installs `uv` if missing, clones `mini-swe-agent`, installs it into the venv).
 
-## Setup (once)
+## A. Claude Code path
+
+```bash
+uv pip install programbench
+bash scripts/run_claude_code.sh abishekvashok__cmatrix.5c082c6 output/my-run
+
+uv run programbench eval output/my-run --branch-workers 4 --docker-cpus 4
+uv run programbench info output/my-run
+```
+
+Prerequisites:
+- `docker`
+- Node.js 20+ on the host (the script bind-mounts the host's `node` binary into the container)
+- `npm install -g @anthropic-ai/claude-code` on the host (bind-mounted in too)
+- An active Claude Code session locally (`~/.claude/` must exist; run `claude` once if it doesn't)
+
+Override the model with `CLAUDE_MODEL=claude-opus-4-7 bash scripts/run_claude_code.sh ...`.
+
+## B. mini-SWE-agent path
+
+Faster to set up if you don't have Claude Code installed but do have a session token.
 
 ```bash
 bash scripts/setup.sh
-```
 
-This is idempotent — re-runs only fix what's missing. It clones
-`mini-swe-agent` into a sibling directory of this repo.
-
-## Run a single instance
-
-Requires you to be logged in via Claude Code locally so
-`~/.claude/.credentials.json` contains a fresh access token. If a run fails with
-`401 from Anthropic`, refresh by running `claude -p ok` once locally and
-re-export the token.
-
-```bash
 export CLAUDE_CODE_OAUTH_TOKEN=$(python -c \
   'import json,os; print(json.load(open(os.path.expanduser("~/.claude/.credentials.json")))["claudeAiOauth"]["accessToken"])')
 
@@ -51,30 +41,15 @@ uv run python scripts/programbench_mini.py \
   --instance-id abishekvashok__cmatrix.5c082c6 \
   --output-dir output/my-run \
   --model claude-opus-4-7
+
+uv run programbench eval output/my-run
+uv run programbench info output/my-run
 ```
 
-## Score the result
+`--doctrine` is on by default. Pass `--no-doctrine` for the plain paper baseline. Use `--config <file.yaml>` + `--workers N` for batch.
 
-The benchmark already ships an evaluator — there's no separate eval script
-here. Run it directly:
+## Notes
 
-```bash
-uv run programbench eval output/my-run --branch-workers 4 --docker-cpus 4
-```
-
-Outputs land in `output/my-run/<instance_id>/<instance_id>.eval.json`.
-`programbench info output/my-run` prints the score table.
-
-## Notes & gotchas
-
-- **OAuth tokens expire ~every 8 hours.** If a run errors mid-way with
-  `AnthropicOAuthAuthError: 401`, run `claude -p ok` once locally to refresh,
-  then re-export `$CLAUDE_CODE_OAUTH_TOKEN`.
-- **OAuth has no per-call cost.** Cost tracking is forcibly set to
-  `ignore_errors`; trajectories record `cost: 0.0` regardless of usage.
-- **The agent operates inside `:task_cleanroom`**, which has the runtime
-  shared libraries the gold binary links against (e.g., `libncursesw.so.6`)
-  but NOT the dev/header packages. The eval container uses the `:task` tag
-  which DOES have the dev packages installed, so submissions that rely on
-  system libraries work at scoring time even without internet access. Bear
-  this in mind when reasoning about why your submission did or didn't compile.
+- Session tokens expire ~every 8 hours. If a run errors with `401`, run `claude -p ok` locally to refresh and re-export the env var (path B), or just re-run the script (path A — it reads the live credentials file).
+- Both paths run the agent inside `:task_cleanroom` (no source / no dev headers). Eval uses `:task` (which has the dev packages installed) so submissions that link system libraries work at scoring time.
+- The network sandbox in path A is loose for simplicity; the doctrine prompt prohibits source-finding and the agent is expected to comply.
